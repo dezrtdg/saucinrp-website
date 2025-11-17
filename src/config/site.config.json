@@ -54,8 +54,8 @@
     "location": "San Andreas",
     "language": "English",
     "logo": {
-      "type": "text",
-      "content": "NC"
+      "type": "image",
+      "content": "images/logo/saucinrp-logo.png"
     },
     "stats": {
       "established": "2024",
