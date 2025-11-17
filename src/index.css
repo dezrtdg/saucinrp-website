@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Anton&family=Montserrat:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Cinematic Agency Color System */
+    --noir-pure: #000000;
+    --noir-soft: #0A0A0A;
+    --noir-charcoal: #1A1A1A;
+    --blanc-pure: #FFFFFF;
+    --blanc-pearl: #F5F5F5;
+    --accent-gold: #C9B037;
+    --accent-gold-light: #D4AF37;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-noir-pure text-blanc-pure font-body;
+    overflow-x: hidden;
+    position: relative;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+  }
+
+  /* Subtle film grain overlay */
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("data:image/svg+xml,%3Csvg width='200' height='200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence baseFrequency='0.85' numOctaves='3' /%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23noiseFilter)' opacity='0.015'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.4;
+    mix-blend-mode: overlay;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-wide;
+    line-height: 1.1;
+  }
+
+  /* Custom scrollbar - minimal and elegant */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-noir-pure;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-noir-charcoal;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-accent-gold-dark;
+  }
+
+  /* Selection color */
+  ::selection {
+    @apply bg-accent-gold text-noir-pure;
+  }
+
+  ::-moz-selection {
+    @apply bg-accent-gold text-noir-pure;
+  }
+}
+
+@layer components {
+  /* Container - Wider for cinematic feel */
+  .container-cinema {
+    @apply max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* Typography Classes */
+  .heading-display {
+    @apply font-display text-blanc-pure uppercase tracking-wider;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+  }
+
+  .heading-elegant {
+    @apply font-heading text-blanc-pure;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+  }
+
+  .text-body {
+    @apply font-body text-blanc-pearl;
+    font-weight: 400;
+    line-height: 1.7;
+  }
+
+  /* Cinematic Buttons */
+  .btn-cinema {
+    @apply relative px-10 py-4 font-heading font-medium tracking-wider;
+    @apply text-blanc-pure border border-blanc-pure/20;
+    @apply transition-all duration-300 ease-out;
+    @apply hover:bg-blanc-pure hover:text-noir-pure;
+    @apply hover:shadow-cinema;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.03);
+  }
+
+  .btn-cinema::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    transition: left 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .btn-cinema:hover::before {
+    left: 100%;
+  }
+
+  .btn-cinema-gold {
+    @apply px-10 py-4 font-heading font-medium tracking-wider;
+    @apply bg-accent-gold text-noir-pure;
+    @apply transition-all duration-300 ease-out;
+    @apply hover:bg-accent-gold-light hover:shadow-gold-glow;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Agency Cards - Clean and minimal */
+  .card-agency {
+    @apply bg-noir-soft/50 backdrop-blur-md;
+    @apply border border-blanc-pure/5;
+    @apply transition-all duration-500 ease-out;
+    @apply hover:bg-noir-charcoal/50;
+    @apply hover:border-blanc-pure/10;
+    @apply hover:shadow-cinema;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card-agency::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--accent-gold), transparent);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .card-agency:hover::before {
+    opacity: 1;
+  }
+
+  /* Editorial Card */
+  .card-editorial {
+    @apply relative overflow-hidden;
+    @apply bg-gradient-to-b from-transparent to-noir-soft/20;
+    @apply transition-all duration-500 cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .card-editorial:hover {
+    @apply shadow-cinema;
+    transform: translateY(-4px);
+  }
+
+  .card-editorial .image-wrapper {
+    @apply relative overflow-hidden;
+    aspect-ratio: 16 / 9;
+  }
+
+  .card-editorial img {
+    @apply w-full h-full object-cover;
+    @apply transition-transform duration-700 ease-out;
+  }
+
+  .card-editorial:hover img {
+    transform: scale(1.05);
+  }
+
+  /* Loading Bar */
+  .loading-bar {
+    @apply h-1 bg-noir-charcoal overflow-hidden;
+    position: relative;
+  }
+
+  .loading-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    @apply bg-accent-gold;
+    animation: loadingBar 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+
+  @keyframes loadingBar {
+    0% { width: 0%; left: 0; }
+    50% { width: 100%; left: 0; }
+    100% { width: 0%; left: 100%; }
+  }
+
+  /* Cinematic Overlay */
+  .overlay-cinema {
+    @apply absolute inset-0 bg-gradient-to-t from-noir-pure via-transparent to-noir-pure/50;
+    pointer-events: none;
+  }
+
+  /* Ken Burns Effect Container */
+  .ken-burns-container {
+    @apply relative overflow-hidden;
+  }
+
+  .ken-burns-container img {
+    @apply w-full h-full object-cover;
+    animation: kenBurns 20s ease-out infinite;
+  }
+
+  /* Status Badge */
+  .badge-status {
+    @apply inline-flex items-center gap-2 px-3 py-1;
+    @apply font-mono text-xs uppercase tracking-wider;
+    @apply bg-noir-charcoal/50 backdrop-blur-sm;
+    @apply border border-blanc-pure/10;
+  }
+
+  .badge-status.online {
+    @apply border-accent-success/30;
+  }
+
+  .badge-status.online::before {
+    content: '';
+    @apply w-2 h-2 rounded-full bg-accent-success;
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
+
+  /* Divider Line */
+  .divider-gold {
+    @apply relative h-[1px] bg-gradient-to-r from-transparent via-accent-gold/50 to-transparent;
+    @apply my-16;
+  }
+
+  /* Section Padding */
+  .section-padding {
+    @apply py-24 md:py-32 lg:py-40;
+  }
+
+  /* Text Shadow for readability on images */
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  }
+
+  .text-shadow-lg {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  }
+
+  /* Smooth transitions */
+  .transition-smooth {
+    @apply transition-all duration-300 cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* Loading Screen */
+  .loading-screen-cinema {
+    @apply fixed inset-0 bg-noir-pure z-50 flex items-center justify-center;
+    background-image: linear-gradient(180deg, #000000 0%, #0A0A0A 50%, #000000 100%);
+  }
+
+  /* Grid Layouts */
+  .grid-editorial {
+    @apply grid gap-8 md:gap-12 lg:gap-16;
+    @apply grid-cols-1 md:grid-cols-2 lg:grid-cols-3;
+  }
+
+  .grid-asymmetric {
+    @apply grid gap-8;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  /* Netflix-style carousel track */
+  .carousel-track {
+    @apply flex gap-4 overflow-x-auto snap-x snap-mandatory;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .carousel-track::-webkit-scrollbar {
+    display: none;
+  }
+
+  .carousel-item {
+    @apply flex-shrink-0 snap-start;
+  }
+
+  /* Mobile optimizations */
+  @media (max-width: 768px) {
+    .section-padding {
+      @apply py-16;
+    }
+
+    h1 {
+      @apply text-4xl md:text-5xl;
+    }
+
+    h2 {
+      @apply text-3xl md:text-4xl;
+    }
+
+    h3 {
+      @apply text-2xl md:text-3xl;
+    }
+
+    .btn-cinema,
+    .btn-cinema-gold {
+      @apply px-6 py-3 text-sm;
+    }
+  }
+}
+
+@layer utilities {
+  /* Aspect Ratios for cinematic feel */
+  .aspect-cinema {
+    aspect-ratio: 21 / 9;
+  }
+
+  .aspect-poster {
+    aspect-ratio: 2 / 3;
+  }
+
+  .aspect-card {
+    aspect-ratio: 16 / 9;
+  }
+
+  /* Blur utilities */
+  .blur-cinema {
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+
+  /* Gold accent utilities */
+  .text-gold-gradient {
+    @apply bg-gradient-to-r from-accent-gold via-accent-gold-light to-accent-gold bg-clip-text text-transparent;
+  }
+
+  /* Animation delays */
+  .animation-delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animation-delay-300 {
+    animation-delay: 300ms;
+  }
+
+  .animation-delay-500 {
+    animation-delay: 500ms;
+  }
+
+  /* Smooth scroll behavior */
+  .scroll-smooth {
+    scroll-behavior: smooth;
+  }
+
+  /* Hide scrollbar but keep functionality */
+  .no-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Pointer events */
+  .pointer-events-all {
+    pointer-events: all;
+  }
+
+  /* Z-index utilities */
+  .z-cinema {
+    z-index: 100;
+  }
+
+  .z-overlay {
+    z-index: 50;
+  }
+}
