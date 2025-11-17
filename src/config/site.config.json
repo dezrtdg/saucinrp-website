@@ -192,8 +192,8 @@
   "features": [
     {
       "id": "custom-framework",
-      "title": "Custom Framework",
-      "description": "Proprietary technology designed for seamless, cinematic gameplay experiences",
+      "title": "QBOX Core & Custom Scripts",
+      "description": "Built on QBOX with a stacked library of custom and optimized scripts tuned for performance, stability, and immersive roleplay.",
       "icon": "Code2",
       "highlight": true
     },
@@ -227,6 +227,13 @@
     },
     {
       "id": "heists",
+      "title": "Heists, Jobs & Events",
+      "description": "Planned robberies, organized crime, and server events that reward coordination, timing, and solid roleplay.",
+      "icon": "Lock",
+      "highlight": true
+    },
+    {
+      "id": "test",
       "title": "Heists, Jobs & Events",
       "description": "Planned robberies, organized crime, and server events that reward coordination, timing, and solid roleplay.",
       "icon": "Lock",
@@ -461,7 +468,7 @@
     "description": "Sell homes and commercial properties, manage viewings, and help players find their spot in the city.",
     "requirements": ["Sales RP", "Knowledge of housing locations", "Application & interview"],
     "salary": 15000,
-    "image": "/images/jobs/realestate.png"
+    "image": "https://files.fivemerr.com/images/160a1d02-cd2a-46e5-be1e-c6dab326f27f.png"
   },
   {
     "id": "trucker",
