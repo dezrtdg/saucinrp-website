@@ -400,15 +400,6 @@
         "salary": 8000,
         "image": "https://files.fivemerr.com/images/639df938-684c-4e1e-991c-9ef7ba5c32aa.png"
       },
-      {
-        "id": "mechanic",
-        "name": "Mechanic",
-        "category": "mechanic",
-        "description": "Automotive specialist providing repair and customization services",
-        "requirements": ["No requirements", "Training provided"],
-        "salary": 150,
-        "image": "https://images.unsplash.com/photo-1615906655593-ad0386982a0f?w=600&h=400&fit=crop"
-      },
   {
     "id": "bahama",
     "name": "Bahama Mamas",
@@ -421,7 +412,7 @@
   {
     "id": "bail",
     "name": "Bail Enforcement",
-    "category": "service",
+    "category": "civilian",
     "description": "Track down skips, recover fugitives, and work within the justice system as a bounty agent.",
     "requirements": ["Clean record", "Knowledge of laws"],
     "salary": 1000,
@@ -443,7 +434,7 @@
     "description": "Handle legal cases, court proceedings, taxes, and investigations as part of the justice system.",
     "requirements": ["Strong legal RP", "Application & interview", "Professional conduct"],
     "salary": 3000,
-    "image": "/images/jobs/doj.png"
+    "image": "https://files.fivemerr.com/images/f0a2a2ce-814f-4cfb-a764-9dd779b30c34.png"
   },
   {
     "id": "mechanic",
