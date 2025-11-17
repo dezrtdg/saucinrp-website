@@ -168,11 +168,19 @@ export const Hero = () => {
                   {siteConfig.server?.tagline || 'Where Stories Come Alive'}
                 </p>
               </div>
-              {siteConfig.server?.logo?.type === 'text' && (
-                <div className="font-display text-6xl lg:text-8xl text-accent-gold opacity-20">
-                  {siteConfig.server.logo.content}
-                </div>
-              )}
+{siteConfig.server?.logo?.type === 'image' ? (
+  <div className="opacity-20">
+    <img
+      src={siteConfig.server.logo.content}
+      alt={siteConfig.server?.name || 'Server Logo'}
+      className="max-h-32 w-auto"
+    />
+  </div>
+) : (
+  <div className="font-display text-6xl lg:text-8xl text-accent-gold opacity-20">
+    {siteConfig.server.logo.content}
+  </div>
+)}
             </div>
 
             {/* Bottom section */}

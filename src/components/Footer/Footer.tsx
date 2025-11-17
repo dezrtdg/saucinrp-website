@@ -44,15 +44,17 @@ export const Footer = () => {
           {/* Brand Column */}
           <div className="lg:col-span-4">
             <div className="mb-6">
-              {siteConfig.server?.logo?.type === 'text' ? (
-                <h3 className="font-display text-4xl text-blanc-pure uppercase tracking-wider mb-4">
-                  {siteConfig.server.logo.content}
-                </h3>
-              ) : (
-                <h3 className="font-display text-3xl text-blanc-pure uppercase tracking-wider mb-4">
-                  {siteConfig.server?.name || 'Saucin RP'}
-                </h3>
-              )}
+{siteConfig.server?.logo?.type === 'image' ? (
+  <img
+    src={siteConfig.server.logo.content}
+    alt={siteConfig.server?.name || 'Server Logo'}
+    className="h-12 w-auto mb-4"
+  />
+) : (
+  <h3 className="font-display text-4xl text-blanc-pure uppercase tracking-wider mb-4">
+    {siteConfig.server.logo.content}
+  </h3>
+)}
               <p className="font-body text-blanc-pearl/60 text-sm max-w-sm">
                 {siteConfig.server?.description || 'Experience the most immersive GTA V roleplay server'}
               </p>
