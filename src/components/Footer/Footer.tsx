@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import siteConfig from '../../config/site.config.json'
 import {
-  Github, Twitter, Youtube, Instagram, Twitch, Medal,
+  Github, Youtube, Twitch, Medal,
   Circle, ExternalLink
 } from 'lucide-react'
 
@@ -16,9 +16,7 @@ export const Footer = () => {
   const getSocialIcon = (platform: string) => {
     switch (platform.toLowerCase()) {
       case 'discord': return DiscordIcon
-      case 'twitter': return Twitter
       case 'youtube': return Youtube
-      case 'instagram': return Instagram
       case 'twitch': return Twitch
       case 'github': return Github
       case 'medal': return Medal
@@ -28,9 +26,7 @@ export const Footer = () => {
 
   const socialLinks = [
     { name: 'Discord', url: siteConfig.social?.discord, icon: 'discord' },
-    { name: 'Twitter', url: siteConfig.social?.twitter, icon: 'twitter' },
     { name: 'Youtube', url: siteConfig.social?.youtube, icon: 'youtube' },
-    { name: 'Instagram', url: siteConfig.social?.instagram, icon: 'instagram' },
     { name: 'Twitch', url: siteConfig.social?.twitch, icon: 'twitch' },
     { name: 'Medal', url: siteConfig.social?.medal, icon: 'medal' },
   ].filter(link => link.url)
