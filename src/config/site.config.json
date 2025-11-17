@@ -496,7 +496,43 @@
     "requirements": ["Chill, character-focused RP", "Application & interview"],
     "salary": 15000,
     "image": "https://files.fivemerr.com/images/5fa652b2-ff3e-49df-8c18-d4014d8c0d02.png"
-  }
+  },
+  {
+    "id": "crim1",
+    "name": "Placeholder",
+    "category": "criminal",
+    "description": "",
+    "requirements": [],
+    "salary": 0,
+    "image": ""
+  },
+  {
+    "id": "crim2",
+    "name": "Placeholder",
+    "category": "criminal",
+    "description": "",
+    "requirements": [],
+    "salary": 0,
+    "image": ""
+  },
+  {
+    "id": "crim3",
+    "name": "Placeholder",
+    "category": "criminal",
+    "description": "",
+    "requirements": [],
+    "salary": 0,
+    "image": ""
+  },
+  {
+    "id": "crim4",
+    "name": "Placeholder",
+    "category": "criminal",
+    "description": "",
+    "requirements": [],
+    "salary": 0,
+    "image": ""
+  },
     ]
   },
 "rules": [
