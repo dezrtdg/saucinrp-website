@@ -325,7 +325,7 @@
       },
       {
         "id": "criminal",
-        "name": "Criminal",
+        "name": "Crews",
         "color": "red",
         "legal": false
       },
@@ -474,157 +474,227 @@
       }
     ]
   },
-  "rules": [
-    {
-      "id": "rdm",
-      "title": "No Random Deathmatch (RDM)",
-      "description": "All actions require proper roleplay justification and context",
-      "category": "combat",
-      "severity": "high"
-    },
-    {
-      "id": "vdm",
-      "title": "No Vehicle Deathmatch (VDM)",
-      "description": "Vehicles are for transportation only, not as weapons",
-      "category": "combat",
-      "severity": "high"
-    },
-    {
-      "id": "metagaming",
-      "title": "No Metagaming",
-      "description": "Maintain strict separation between in-character and out-of-character knowledge",
-      "category": "roleplay",
-      "severity": "high"
-    },
-    {
-      "id": "powergaming",
-      "title": "No Powergaming",
-      "description": "Allow reasonable response time and maintain realistic limitations",
-      "category": "roleplay",
-      "severity": "medium"
-    },
-    {
-      "id": "nlr",
-      "title": "New Life Rule",
-      "description": "Character memory reset applies to events preceding death",
-      "category": "roleplay",
-      "severity": "medium"
-    },
-    {
-      "id": "respect",
-      "title": "Respect Everyone",
-      "description": "Maintain professional conduct and respect for all players",
-      "category": "general",
-      "severity": "high"
-    },
-    {
-      "id": "greenzone",
-      "title": "Green Zones",
-      "description": "Designated safe zones where hostile actions are prohibited",
-      "category": "zones",
-      "severity": "medium"
-    },
-    {
-      "id": "corruption",
-      "title": "Cop Corruption",
-      "description": "Law enforcement corruption requires administrative authorization",
-      "category": "special",
-      "severity": "low"
-    },
-    {
-      "id": "failrp",
-      "title": "No FailRP",
-      "description": "Maintain character consistency and value for life at all times",
-      "category": "roleplay",
-      "severity": "high"
-    },
-    {
-      "id": "combat-logging",
-      "title": "No Combat Logging",
-      "description": "Remain connected during active scenarios and confrontations",
-      "category": "combat",
-      "severity": "high"
-    },
-    {
-      "id": "robbery",
-      "title": "Robbery Rules",
-      "description": "Minimum law enforcement presence required for major crimes",
-      "category": "special",
-      "severity": "medium"
-    },
-    {
-      "id": "initiation",
-      "title": "Proper Initiation",
-      "description": "Proper roleplay initiation required before any hostile engagement",
-      "category": "combat",
-      "severity": "high"
-    },
-    {
-      "id": "value-life",
-      "title": "Value Your Life",
-      "description": "Respond appropriately to threatening situations and superior force",
-      "category": "roleplay",
-      "severity": "high"
-    },
-    {
-      "id": "mic-required",
-      "title": "Microphone Required",
-      "description": "Voice communication required for all roleplay interactions",
-      "category": "general",
-      "severity": "high"
-    },
-    {
-      "id": "exploits",
-      "title": "No Exploiting",
-      "description": "Exploitation of bugs results in immediate permanent removal",
-      "category": "general",
-      "severity": "high"
-    },
-    {
-      "id": "safezones",
-      "title": "Safe Zone Rules",
-      "description": "Weapons prohibited in designated government facilities",
-      "category": "zones",
-      "severity": "medium"
-    },
-    {
-      "id": "hostage",
-      "title": "Hostage Rules",
-      "description": "Hostage scenarios require genuine player participation",
-      "category": "special",
-      "severity": "medium"
-    },
-    {
-      "id": "ems-respect",
-      "title": "Respect EMS",
-      "description": "Allow emergency services to operate without interference",
-      "category": "combat",
-      "severity": "medium"
-    },
-    {
-      "id": "stream-sniping",
-      "title": "No Stream Sniping",
-      "description": "Prohibited use of live streams for tactical advantages",
-      "category": "general",
-      "severity": "high"
-    },
-    {
-      "id": "erp",
-      "title": "No ERP",
-      "description": "Adult content strictly prohibited in all scenarios",
-      "category": "roleplay",
-      "severity": "high"
-    }
-  ],
+"rules": [
+  {
+    "id": "general-project",
+    "title": "Active Development & Compensation",
+    "description": "Saucin RP is an active development project. Compensation is only issued when losses can be verified and is not guaranteed for crashes or dev issues.",
+    "category": "general",
+    "severity": "medium"
+  },
+  {
+    "id": "community-conduct",
+    "title": "Community Conduct",
+    "description": "No racism, sexism, harassment, bullying, toxicity, trolling, or real-money trading. Respect the community both in and out of roleplay.",
+    "category": "general",
+    "severity": "high"
+  },
+  {
+    "id": "age-mic",
+    "title": "18+ & Mic Required",
+    "description": "All players must be 18+ with a clear, working microphone for voice-based roleplay.",
+    "category": "roleplay",
+    "severity": "high"
+  },
+  {
+    "id": "recording-required",
+    "title": "Recording Software Required",
+    "description": "Recording software (e.g., Medal, Shadowplay) is required. Clips older than 48 hours are not valid for reports or reimbursements.",
+    "category": "general",
+    "severity": "medium"
+  },
+  {
+    "id": "character-names",
+    "title": "Realistic Character Names",
+    "description": "Character names must be realistic. No celebrity names, joke names, or controversial figures.",
+    "category": "roleplay",
+    "severity": "medium"
+  },
+  {
+    "id": "exploits",
+    "title": "No Exploiting or Cheating",
+    "description": "No exploiting, cheating, hiding exploits, or using unfair graphics mods, crosshairs, or tools that give a competitive advantage.",
+    "category": "general",
+    "severity": "high"
+  },
+  {
+    "id": "external-comms",
+    "title": "No External Communication",
+    "description": "You may not be in Discord calls or similar external comms while in the city, even if muted or deafened.",
+    "category": "metagaming",
+    "severity": "high"
+  },
+  {
+    "id": "metagaming",
+    "title": "No Metagaming",
+    "description": "Do not use information your character wouldn’t reasonably know, including Discord, streams, or knowledge from other characters.",
+    "category": "metagaming",
+    "severity": "high"
+  },
+  {
+    "id": "powergaming",
+    "title": "No Powergaming",
+    "description": "Do not force outcomes, abuse mechanics, or deny others a fair chance to react. Give reasonable time and keep actions realistic.",
+    "category": "roleplay",
+    "severity": "medium"
+  },
+  {
+    "id": "failrp",
+    "title": "No FailRP",
+    "description": "Stay in character, avoid low-effort or troll RP, and follow medical, vehicle, and scene realism guidelines at all times.",
+    "category": "roleplay",
+    "severity": "high"
+  },
+  {
+    "id": "value-life",
+    "title": "Value Your Life",
+    "description": "Treat life-threatening situations seriously, avoid unrealistic hero behavior, and properly roleplay injuries and consequences.",
+    "category": "roleplay",
+    "severity": "high"
+  },
+  {
+    "id": "combat-logging",
+    "title": "No Combat Logging or Invalid Respawns",
+    "description": "Do not log out or respawn to avoid RP or consequences. Never return after a full death unless allowed by staff.",
+    "category": "combat",
+    "severity": "high"
+  },
+  {
+    "id": "prohibited-rp",
+    "title": "Prohibited Roleplay",
+    "description": "Rape, extreme torture, terrorism, racist roleplay, and injury RP involving genital or rear extremities are strictly forbidden.",
+    "category": "roleplay",
+    "severity": "high"
+  },
+  {
+    "id": "dumping-assets",
+    "title": "No Asset Dumping",
+    "description": "Giving away large amounts of items, money, or vehicles when leaving the server or retiring a character is not allowed.",
+    "category": "general",
+    "severity": "high"
+  },
+  {
+    "id": "rdm",
+    "title": "Random Deathmatch (RDM)",
+    "description": "You must have clear RP build-up and reasoning before killing someone. Random or low-effort kills are not allowed.",
+    "category": "combat",
+    "severity": "high"
+  },
+  {
+    "id": "vdm",
+    "title": "Vehicle Deathmatch (VDM)",
+    "description": "Vehicles are not weapons. Using them to intentionally run over or ram players is only allowed as an absolute last resort.",
+    "category": "combat",
+    "severity": "high"
+  },
+  {
+    "id": "green-zones",
+    "title": "Green Zones",
+    "description": "Spawn, hospitals, fire stations, and large public/business gatherings are passive RP only. No violence or criminal RP in these areas.",
+    "category": "zones",
+    "severity": "medium"
+  },
+  {
+    "id": "criminal-rp",
+    "title": "Criminal RP Quality",
+    "description": "Criminal RP must be story-driven, not constant shootouts or low-effort crime. Max 10 criminals per scene and no targeting AFK players.",
+    "category": "criminal",
+    "severity": "medium"
+  },
+  {
+    "id": "ems-protection",
+    "title": "Respect EMS & SAFR",
+    "description": "EMS and SAFR may not be harmed, looted, or taken unless explicitly allowed by specific scenarios (e.g., TEMS).",
+    "category": "criminal",
+    "severity": "medium"
+  },
+  {
+    "id": "robbery",
+    "title": "Robbery Rules",
+    "description": "Rob within proper RP build-up. Certain items (phone, ID, licenses, basic food/water, radios) cannot be taken, and you cannot rob on-duty officers.",
+    "category": "criminal",
+    "severity": "medium"
+  },
+  {
+    "id": "hostage",
+    "title": "Kidnapping & Hostage Rules",
+    "description": "Hostages have time limits, may not be reused repeatedly, and law enforcement/EMS hostage situations must meet population and RP standards.",
+    "category": "criminal",
+    "severity": "medium"
+  },
+  {
+    "id": "scamming",
+    "title": "Scamming Rules",
+    "description": "You may not scam players out of items, vehicles, or property. Scamming is limited to information such as locations or processes.",
+    "category": "criminal",
+    "severity": "medium"
+  },
+  {
+    "id": "heists",
+    "title": "Heists & Location Robberies",
+    "description": "Heists must be run for RP, not just ambushing cops. There are limits on vehicles and expectations for fair, visible engagements.",
+    "category": "criminal",
+    "severity": "medium"
+  },
+  {
+    "id": "gang-tax",
+    "title": "Gang Taxing & Civ Interactions",
+    "description": "Gangs may tax civs reasonably but may not rob, wallet-wipe, or grief them. Most conflict should be between gangs, not random civilians.",
+    "category": "gangs",
+    "severity": "medium"
+  },
+  {
+    "id": "gang-escalation",
+    "title": "Gang Escalation & War",
+    "description": "Gang conflict follows the in-game 7-day escalation system using rcore gangs and Wasabi war phone. Ambush RP and cheap-shot PvP are forbidden.",
+    "category": "gangs",
+    "severity": "medium"
+  },
+  {
+    "id": "business-rules",
+    "title": "Business Ownership",
+    "description": "Business owners must remain active, follow economic and RP standards, and may lose ownership for inactivity or abuse.",
+    "category": "business",
+    "severity": "medium"
+  },
+  {
+    "id": "dhs-staff",
+    "title": "DHS & Staff",
+    "description": "DHS uniforms represent staff. Do not steal, damage, or impersonate DHS vehicles or gear. Treat interactions as IC unless told otherwise.",
+    "category": "staff",
+    "severity": "high"
+  },
+  {
+    "id": "reports",
+    "title": "Reporting Players",
+    "description": "Use /report or Discord tickets with at least 2 minutes of footage. False or troll reports, or lying to DHS, are punishable.",
+    "category": "general",
+    "severity": "medium"
+  },
+  {
+    "id": "airsoft",
+    "title": "Airsoft & Replica Weapons",
+    "description": "Brandishing or firing airsoft/replica weapons at officers is strictly prohibited and carries severe penalties, including long-term bans.",
+    "category": "combat",
+    "severity": "high"
+  },
+  {
+    "id": "stream-sniping",
+    "title": "No Stream Sniping",
+    "description": "Using streams or external content to track or counter players is treated as metagaming and will be punished.",
+    "category": "general",
+    "severity": "high"
+  }
+],
   "team": [
     {
-      "id": "john-doe",
-      "name": "John 'Boss' Doe",
+      "id": "mg",
+      "name": "MG",
       "role": "Server Owner",
       "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
       "discord": "bigboss",
       "description": "Founder and visionary leader of NightCity Roleplay",
-      "badge": "FOUNDER",
+      "badge": "OWNER",
       "status": "active"
     },
     {
