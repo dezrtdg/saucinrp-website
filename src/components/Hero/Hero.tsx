@@ -162,7 +162,7 @@ export const Hero = () => {
             <div className="flex justify-between items-start">
               <div>
                 <h1 className="font-display text-5xl lg:text-7xl text-blanc-pure uppercase tracking-wider">
-                  {siteConfig.server?.name || 'NightCity RP'}
+                  {siteConfig.server?.name || 'Saucin RP'}
                 </h1>
                 <p className="font-heading text-blanc-pearl/80 text-lg mt-2">
                   {siteConfig.server?.tagline || 'Where Stories Come Alive'}
@@ -255,12 +255,12 @@ export const Hero = () => {
                 <span key={i} className="block">
                   {word}
                 </span>
-              )) || <><span className="block">NightCity</span><span className="block">Roleplay</span></>}
+              )) || <><span className="block">Saucin</span><span className="block">RP</span></>}
             </h1>
 
             {/* Description */}
             <p className="hero-content font-body text-blanc-pearl/80 text-lg md:text-xl leading-relaxed mb-10 max-w-2xl">
-              {siteConfig.server?.description || 'Experience the most immersive GTA V roleplay server'}
+              {siteConfig.server?.description || 'Your city. Your story.'}
             </p>
 
             {/* CTA Buttons */}
