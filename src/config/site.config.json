@@ -69,7 +69,7 @@
     "language": "English",
     "logo": {
       "type": "image",
-      "content": "images/logo/saucinrp-logo.png"
+      "content": "/images/logo/saucinrp-logo.png"
     },
     "stats": {
       "established": "2024",
