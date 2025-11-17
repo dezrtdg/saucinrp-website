@@ -105,10 +105,10 @@
       "highlight": "OPTIMIZED CITY • CUSTOM SCRIPTS • STORY-DRIVEN ROLEPLAY"
     },
     "jobs": {
-      "sectionTag": "Careers",
-      "title": "Build Your",
-      "titleAccent": "Legacy",
-      "subtitle": "Shape your destiny in Los Santos. Every career path tells a different story.",
+      "sectionTag": "Jobs & Roles",
+      "title": "Live Your",
+      "titleAccent": "Story",
+      "subtitle": "Serve, protect, hustle, heal, or build your empire. Every role in the city plays a part in the story.",
       "categoriesTitle": "Categories",
       "allJobsLabel": "All Jobs",
       "totalJobsLabel": "Total Jobs",
@@ -128,11 +128,11 @@
       }
     },
     "rules": {
-      "sectionTag": "Guidelines",
+      "sectionTag": "Rules & Expectations",
       "title": "Server",
-      "titleAccent": "Guidelines",
-      "subtitle": "Professional standards for an immersive experience. Excellence is our baseline.",
-      "footer": "Excellence in Every Interaction",
+      "titleAccent": "Rules",
+      "subtitle": "Simple, clear expectations to keep roleplay fun, fair, and immersive for everyone.",
+      "footer": "Respect the city. Respect the story.",
       "severityLabels": {
         "high": "high priority",
         "medium": "medium priority",
@@ -199,36 +199,36 @@
     },
     {
       "id": "gang-system",
-      "title": "Territory Management",
-      "description": "Strategic control zones with dynamic influence and progression systems",
+      "title": "Crews, Gangs & Turf",
+      "description": "Claim corners, hold blocks, and push back rivals. Territory, rivalries, and alliances all shape the streets of the city.",
       "icon": "Users",
       "highlight": true
     },
     {
       "id": "economy",
-      "title": "Dynamic Economy",
-      "description": "Complex economic ecosystem with multiple revenue streams and market dynamics",
+      "title": "Balanced Progression & Economy",
+      "description": "Grind legit, move illegal product, or stack passive income. A tuned economy that rewards time, creativity, and risk.",
       "icon": "DollarSign",
       "highlight": false
     },
     {
       "id": "housing",
-      "title": "Real Estate Portfolio",
-      "description": "Acquire properties ranging from starter apartments to luxury penthouses",
+      "title": "Player Housing & Properties",
+      "description": "From starter spots to premium locations, claim a place to call home, stash your items, and build your character’s lifestyle.",
       "icon": "Home",
       "highlight": false
     },
     {
       "id": "vehicles",
-      "title": "300+ Vehicles",
-      "description": "Extensive collection from classic cars to cutting-edge supercars",
+      "title": "Custom Vehicle Fleet",
+      "description": "A curated mix of emergency, civilian, and specialty vehicles tuned for performance, RP, and style—not just speed.",
       "icon": "Car",
       "highlight": false
     },
     {
       "id": "heists",
-      "title": "Heist Operations",
-      "description": "Orchestrate complex operations requiring strategy, timing, and teamwork",
+      "title": "Heists, Jobs & Events",
+      "description": "Planned robberies, organized crime, and server events that reward coordination, timing, and solid roleplay.",
       "icon": "Lock",
       "highlight": true
     }
@@ -356,20 +356,38 @@
     ],
     "list": [
       {
-        "id": "police",
-        "name": "Police Officer",
+        "id": "sasp",
+        "name": "San Andreas State Police",
         "category": "emergency",
-        "description": "Uphold justice and maintain order throughout Los Santos",
-        "requirements": ["18+ years old", "Clean record", "Interview required"],
-        "salary": 300,
+        "description": "Statewide law enforcement focused on traffic, highway safety, and major crimes across San Andreas.",
+        "requirements": ["Clean record", "Application & interview", "Basic academy training"],
+        "salary": 8000,
+        "image": "https://images.unsplash.com/photo-1596265371388-43edbaadab94?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "bcso",
+        "name": "Blaine County Sheriff's Office",
+        "category": "emergency",
+        "description": "Rural and small-town law enforcement handling calls in Blaine County and surrounding areas.",
+        "requirements": ["Clean record", "Application & interview", "Basic academy training"],
+        "salary": 8000,
         "image": "https://images.unsplash.com/photo-1596265371388-43edbaadab94?w=600&h=400&fit=crop"
       },
       {
         "id": "ems",
         "name": "Paramedic",
         "category": "emergency",
-        "description": "Emergency medical response and critical care services",
-        "requirements": ["16+ years old", "Medical training", "Active player"],
+        "description": "Provide advanced medical care, stabilize patients on scene, and transport them safely to hospital.",
+        "requirements": ["Basic medical training (in-city or prior RP experience)", "Application & interview", "Calm under pressure"],
+        "salary": 8000,
+        "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "safr",
+        "name": "Fire Rescue",
+        "category": "emergency",
+        "description": "Respond to structure fires, vehicle accidents, rescues, and support EMS on high-risk scenes.",
+        "requirements": ["Fire & medical training (in-city or prior RP experience)", "Application & interview", "Teamwork & communication"],
         "salary": 250,
         "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=600&h=400&fit=crop"
       },
