@@ -388,8 +388,17 @@
         "category": "emergency",
         "description": "Respond to structure fires, vehicle accidents, rescues, and support EMS on high-risk scenes.",
         "requirements": ["Fire & medical training (in-city or prior RP experience)", "Application & interview", "Teamwork & communication"],
-        "salary": 250,
+        "salary": 8000,
         "image": "https://files.fivemerr.com/images/0aedf579-8497-4949-9078-bf6302d0d2e7.png"
+      },
+      {
+        "id": "sadot",
+        "name": "Department of Transportation",
+        "category": "emergency",
+        "description": "Keep the roads clear and the city moving by handling tows, recoveries, scene support, and roadside safety.",
+        "requirements": [    "Clean record","Application & interview", "Good knowledge of road safety and traffic control", "Teamwork & communication"],
+        "salary": 8000,
+        "image": "https://files.fivemerr.com/images/639df938-684c-4e1e-991c-9ef7ba5c32aa.png"
       },
       {
         "id": "mechanic",
@@ -400,78 +409,96 @@
         "salary": 150,
         "image": "https://images.unsplash.com/photo-1615906655593-ad0386982a0f?w=600&h=400&fit=crop"
       },
-      {
-        "id": "taxi",
-        "name": "Taxi Driver",
-        "category": "civilian",
-        "description": "Professional transportation services throughout Los Santos",
-        "requirements": ["Valid license", "Clean driving record"],
-        "salary": 100,
-        "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "dealer",
-        "name": "Drug Dealer",
-        "category": "criminal",
-        "description": "Manage distribution networks and territory operations",
-        "requirements": ["Street reputation", "Gang affiliation"],
-        "salary": 500,
-        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "gunrunner",
-        "name": "Arms Dealer",
-        "category": "criminal",
-        "description": "Specialized equipment broker and logistics coordinator",
-        "requirements": ["Connections", "Trust level"],
-        "salary": 500,
-        "image": "https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "lawyer",
-        "name": "Lawyer",
-        "category": "business",
-        "description": "Legal representation and courtroom advocacy services",
-        "requirements": ["Bar exam", "Good standing"],
-        "salary": 350,
-        "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "judge",
-        "name": "Judge",
-        "category": "government",
-        "description": "Preside over legal proceedings and ensure justice",
-        "requirements": ["Legal experience", "Application required"],
-        "salary": 500,
-        "image": "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "doctor",
-        "name": "Doctor",
-        "category": "medical",
-        "description": "Lead medical professional providing specialized healthcare",
-        "requirements": ["Medical license", "Experience required"],
-        "salary": 400,
-        "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "nurse",
-        "name": "Nurse",
-        "category": "medical",
-        "description": "Healthcare professional supporting medical operations",
-        "requirements": ["16+ years old", "Training provided"],
-        "salary": 200,
-        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "auto_mechanic",
-        "name": "Auto Mechanic",
-        "category": "mechanic",
-        "description": "Technical specialist in vehicle maintenance and modifications",
-        "requirements": ["Basic knowledge", "Tools provided"],
-        "salary": 180,
-        "image": "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=600&h=400&fit=crop"
-      }
+  {
+    "id": "bahama",
+    "name": "Bahama Mamas",
+    "category": "business",
+    "description": "Run one of the city’s nightlife hotspots with music, events, and a social atmosphere.",
+    "requirements": ["Good social RP", "Application & interview"],
+    "salary": 15000,
+    "image": "/images/jobs/bahama.png"
+  },
+  {
+    "id": "bail",
+    "name": "Bail Enforcement",
+    "category": "service",
+    "description": "Track down skips, recover fugitives, and work within the justice system as a bounty agent.",
+    "requirements": ["Clean record", "Knowledge of laws"],
+    "salary": 1000,
+    "image": "/images/jobs/bail.png"
+  },
+  {
+    "id": "bennys",
+    "name": "Benny's",
+    "category": "mechanic",
+    "description": "Handle towing, repairs, and custom builds at one of the city’s most known mechanic shops.",
+    "requirements": ["Mechanical RP experience", "Application & interview"],
+    "salary": 15000,
+    "image": "/images/jobs/bennys.png"
+  },
+  {
+    "id": "doj",
+    "name": "Department of Justice",
+    "category": "government",
+    "description": "Handle legal cases, court proceedings, taxes, and investigations as part of the justice system.",
+    "requirements": ["Strong legal RP", "Application & interview", "Professional conduct"],
+    "salary": 3000,
+    "image": "/images/jobs/doj.png"
+  },
+  {
+    "id": "mechanic",
+    "name": "Tej Garage",
+    "category": "mechanic",
+    "description": "Repair, tune, and customize vehicles for locals, racers, and car enthusiasts.",
+    "requirements": ["Mechanical RP", "Application & interview"],
+    "salary": 15000,
+    "image": "/images/jobs/mechanic.png"
+  },
+  {
+    "id": "mechanic3",
+    "name": "LS Customs",
+    "category": "mechanic",
+    "description": "Work at one of the city’s flagship shops, handling custom builds and repairs.",
+    "requirements": ["Mechanical RP", "Teamwork", "Application & interview"],
+    "salary": 15000,
+    "image": "/images/jobs/mechanic3.png"
+  },
+  {
+    "id": "realestate",
+    "name": "Real Estate",
+    "category": "civilian",
+    "description": "Sell homes and commercial properties, manage viewings, and help players find their spot in the city.",
+    "requirements": ["Sales RP", "Knowledge of housing locations", "Application & interview"],
+    "salary": 15000,
+    "image": "/images/jobs/realestate.png"
+  },
+  {
+    "id": "trucker",
+    "name": "Trucker",
+    "category": "civilian",
+    "description": "Haul goods across the map, manage deliveries, and keep the city’s supply chain alive.",
+    "requirements": ["Long-haul RP interest", "Safe driving"],
+    "salary": 5000,
+    "image": "/images/jobs/trucker.png"
+  },
+  {
+    "id": "vu",
+    "name": "Vanilla Unicorn",
+    "category": "business",
+    "description": "Run the city’s iconic nightclub with music, dance, and adult-themed but rule-compliant RP.",
+    "requirements": ["Mature RP only", "Application & interview", "Rule awareness (no ERP)"],
+    "salary": 15000,
+    "image": "/images/jobs/vu.png"
+  },
+  {
+    "id": "whitewidow",
+    "name": "White Widow",
+    "category": "business",
+    "description": "Cultivate and sell cannabis products, maintaining a professional, chill shop vibe.",
+    "requirements": ["Chill, character-focused RP", "Application & interview"],
+    "salary": 15000,
+    "image": "/images/jobs/whitewidow.png"
+  }
     ]
   },
 "rules": [
