@@ -113,7 +113,7 @@ export const Footer = () => {
                   {siteConfig.ui?.footer?.statsLabels?.players || 'Players'}
                 </span>
                 <span className="font-mono text-sm text-blanc-pure">
-                  {siteConfig.server?.stats?.totalPlayers || '15,000+'}
+                  {siteConfig.server?.stats?.totalPlayers || '90+'}
                 </span>
               </div>
               <div className="flex items-center justify-between">
@@ -121,7 +121,7 @@ export const Footer = () => {
                   {siteConfig.ui?.footer?.statsLabels?.activeGangs || 'Active Gangs'}
                 </span>
                 <span className="font-mono text-sm text-blanc-pure">
-                  {siteConfig.server?.stats?.activeGangs || '12'}
+                  {siteConfig.server?.stats?.activeGangs || '4+'}
                 </span>
               </div>
               <div className="flex items-center justify-between">
@@ -129,7 +129,7 @@ export const Footer = () => {
                   {siteConfig.ui?.footer?.statsLabels?.businesses || 'Businesses'}
                 </span>
                 <span className="font-mono text-sm text-blanc-pure">
-                  {siteConfig.server?.stats?.businesses || '45+'}
+                  {siteConfig.server?.stats?.businesses || '8+'}
                 </span>
               </div>
             </div>

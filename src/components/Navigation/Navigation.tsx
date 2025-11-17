@@ -14,7 +14,7 @@ export const Navigation = () => {
   const menuRef = useRef<HTMLDivElement>(null)
 
   const menuItems = useMemo(
-    () => siteConfig.ui?.navigation?.menuItems || ['Features', 'Jobs', 'Rules', 'Team', 'Gallery'],
+    () => siteConfig.ui?.navigation?.menuItems || ['Features', 'Jobs', 'Rules', 'Team', 'Gallery', 'Store'],
     []
   )
 

@@ -64,6 +64,7 @@
     "ip": "fivem.saucinrp.com",
     "port": "30120",
     "discord": "https://discord.gg/saucinrp",
+    "store": "https://store.saucinrp.com/",
     "maxPlayers": 60,
     "location": "San Andreas",
     "language": "English",
@@ -693,7 +694,7 @@
       "role": "Server Owner",
       "avatar": "https://cdn.discordapp.com/avatars/778100271976153128/14ae46df25ad7e9f2a7f0809cc2aad2e.png?size=512",
       "discord": "mgsauceboss",
-      "description": "Founder and visionary leader of NightCity Roleplay",
+      "description": "Co-owner of Saucin RP, focused on long-term vision, direction, and the future of the city.",
       "badge": "OWNER",
       "status": "active"
     },
@@ -703,7 +704,7 @@
       "role": "Server Owner",
       "avatar": "https://cdn.discordapp.com/avatars/832896568000512032/d79a8639702964fdedc2f12702cf2a92.png?size=512",
       "discord": "trureapz",
-      "description": "Founder and visionary leader of NightCity Roleplay",
+      "description": "Co-owner of Saucin RP, handling day-to-day operations, community flow, and overall server vibe.",
       "badge": "OWNER",
       "status": "active"
     },
@@ -713,7 +714,7 @@
       "role": "Server Owner",
       "avatar": "https://cdn.discordapp.com/avatars/747481115513847919/65a092717f2147f13a9ecbc6d4f6c986.png?size=512",
       "discord": "dezrtdg",
-      "description": "Founder and visionary leader of NightCity Roleplay",
+      "description": "Co-owner of Saucin RP, hands-on with development, scripts, performance, and in-city systems.",
       "badge": "OWNER",
       "status": "active"
     },
@@ -723,7 +724,7 @@
       "role": "Head Administrator",
       "avatar": "https://cdn.discordapp.com/avatars/297825134620966922/2e1f8386294a63c381afb3024a878f79.png?size=512",
       "discord": "tyberzhan.33",
-      "description": "Ensuring server integrity and exceptional player experiences",
+      "description": "Leads the admin team, handling escalated situations, policy enforcement, and high-level support.",
       "badge": "ADMIN",
       "status": "active"
     },
@@ -733,7 +734,7 @@
       "role": "Administrator",
       "avatar": "https://cdn.discordapp.com/avatars/265908713179709441/875e9dda26799d9da9783a48bbeaf005.png?size=512",
       "discord": "swisherjay",
-      "description": "Ensuring server integrity and exceptional player experiences",
+      "description": "Administrator supporting day-to-day operations, reports, and keeping RP fair for everyone.",
       "badge": "ADMIN",
       "status": "active"
     },
@@ -743,7 +744,7 @@
       "role": "Administrator",
       "avatar": "https://cdn.discordapp.com/avatars/785957253081464905/d3b604cebe51a7b4679e03b5690a454c.png?size=512",
       "discord": "damnsam1923",
-      "description": "Ensuring server integrity and exceptional player experiences",
+      "description": "Administrator focused on player support, tickets, and keeping scenes smooth and enjoyable.",
       "badge": "ADMIN",
       "status": "active"
     },
@@ -753,7 +754,7 @@
       "role": "Administrator",
       "avatar": "https://cdn.discordapp.com/avatars/696223317761327126/f2b18a10bf5f8627e123aac47518f7d9.png?size=512",
       "discord": "avengedgurl",
-      "description": "Ensuring server integrity and exceptional player experiences",
+      "description": "Administrator assisting with moderation, conflict resolution, and server standards.",
       "badge": "ADMIN",
       "status": "active"
     },
@@ -763,17 +764,17 @@
       "role": "Head Moderator",
       "avatar": "https://cdn.discordapp.com/avatars/434881728717258773/cf970a26b610c37daf04580ca10051fa.png?size=512",
       "discord": "yeahitsjesshere",
-      "description": "Community liaison and conflict resolution specialist",
+      "description": "Head Moderator bridging players and staff, handling reports, and keeping the vibe positive.",
       "badge": "MOD",
       "status": "active"
     },
     {
       "id": "Rich",
-      "name": "Sarah 'Peace' Jones",
+      "name": "Rich",
       "role": "Moderator",
       "avatar": "https://cdn.discordapp.com/avatars/452956366290550794/69f3d9a056a36775119757258ae8a8f2.png?size=512",
       "discord": "rich_killa123",
-      "description": "Community liaison and conflict resolution specialist",
+      "description": "Moderator helping with tickets, in-city issues, and keeping interactions respectful.",
       "badge": "MOD",
       "status": "active"
     },
@@ -783,7 +784,7 @@
       "role": "Moderator",
       "avatar": "https://cdn.discordapp.com/avatars/312680308665483264/78a4047a03d59e8e3814ddf78a64ccbb.png?size=512",
       "discord": "mandoraider",
-      "description": "Community liaison and conflict resolution specialist",
+      "description": "Moderator supporting community moderation, scene quality, and server guidelines.",
       "badge": "MOD",
       "status": "active"
     }
