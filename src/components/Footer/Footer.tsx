@@ -50,7 +50,7 @@ export const Footer = () => {
                 </h3>
               ) : (
                 <h3 className="font-display text-3xl text-blanc-pure uppercase tracking-wider mb-4">
-                  {siteConfig.server?.name || 'NightCity RP'}
+                  {siteConfig.server?.name || 'Saucin RP'}
                 </h3>
               )}
               <p className="font-body text-blanc-pearl/60 text-sm max-w-sm">
