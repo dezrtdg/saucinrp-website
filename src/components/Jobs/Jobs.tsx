@@ -125,16 +125,15 @@ export const Jobs = () => {
                 className="job-card group relative"
               >
                 <div className="card-agency h-full flex flex-col overflow-hidden">
-{/* Image section */}
-<div className="relative aspect-[16/10] flex items-center justify-center overflow-hidden bg-noir-charcoal">
-  {job.image && (
-    <img
-      src={job.image}
-      alt={job.name}
-      className="max-w-full max-h-full object-contain opacity-80 transition-transform duration-700 group-hover:scale-105"
-    />
-  )}
-</div>
+                  {/* Image section */}
+                  <div className="relative aspect-[16/10] flex items-center justify-center overflow-hidden bg-noir-charcoal">
+                    {job.image && (
+                      <img
+                        src={job.image}
+                        alt={job.name}
+                        className="max-w-full max-h-full object-contain opacity-80 transition-transform duration-700 group-hover:scale-105"
+                      />
+                    )}
 
                     {/* Overlay gradient */}
                     <div className="absolute inset-0 bg-gradient-to-t from-noir-pure via-noir-pure/20 to-transparent" />
