@@ -371,16 +371,16 @@
         "description": "Rural and small-town law enforcement handling calls in Blaine County and surrounding areas.",
         "requirements": ["Clean record", "Application & interview", "Basic academy training"],
         "salary": 8000,
-        "image": "https://images.unsplash.com/photo-1596265371388-43edbaadab94?w=600&h=400&fit=crop"
+        "image": "https://files.fivemerr.com/images/77324e38-bc94-4bc3-b4c2-6c6abfedc909.png"
       },
       {
         "id": "ems",
         "name": "Paramedic",
         "category": "emergency",
-        "description": "Provide advanced medical care, stabilize patients on scene, and transport them safely to hospital.",
+        "description": "Provide advanced medical care, stabilize patients on scene, and transport them safely to hospital. Integrated with SAFR.",
         "requirements": ["Basic medical training (in-city or prior RP experience)", "Application & interview", "Calm under pressure"],
         "salary": 8000,
-        "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=600&h=400&fit=crop"
+        "image": "https://files.fivemerr.com/images/0aedf579-8497-4949-9078-bf6302d0d2e7.png"
       },
       {
         "id": "safr",
@@ -389,7 +389,7 @@
         "description": "Respond to structure fires, vehicle accidents, rescues, and support EMS on high-risk scenes.",
         "requirements": ["Fire & medical training (in-city or prior RP experience)", "Application & interview", "Teamwork & communication"],
         "salary": 250,
-        "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=600&h=400&fit=crop"
+        "image": "https://files.fivemerr.com/images/0aedf579-8497-4949-9078-bf6302d0d2e7.png"
       },
       {
         "id": "mechanic",
