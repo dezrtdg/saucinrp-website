@@ -73,9 +73,9 @@
     },
     "stats": {
       "established": "2024",
-      "totalPlayers": "15,000+",
-      "activeGangs": "12",
-      "businesses": "45+"
+      "totalPlayers": "90+",
+      "activeGangs": "4+",
+      "businesses": "8+"
     },
     "loadingTips": [
       "Every character has a story. What's yours?",
@@ -795,11 +795,12 @@
   },
   "social": {
     "discord": "https://discord.gg/saucinrp",
+    "medal": "https://medal.tv/u/saucinrp",
     "twitter": "https://twitter.com/saucinrp",
     "youtube": "https://youtube.com/@saucinrp",
     "tiktok": "https://tiktok.com/@saucinrp",
     "instagram": "https://instagram.com/saucinrp",
-    "twitch": "https://twitch.tv/saucinrp",
+    "twitch": "https://twitch.tv/saucin_rp",
     "store": "https://store.saucinrp.com/",
     "teamspeak": null,
     "forum": null

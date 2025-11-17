@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import siteConfig from '../../config/site.config.json'
 import {
-  Github, Twitter, Youtube, Instagram, Twitch,
+  Github, Twitter, Youtube, Instagram, Twitch, Medal,
   Circle, ExternalLink
 } from 'lucide-react'
 
@@ -21,6 +21,7 @@ export const Footer = () => {
       case 'instagram': return Instagram
       case 'twitch': return Twitch
       case 'github': return Github
+      case 'medal': return Medal
       default: return ExternalLink
     }
   }
@@ -31,6 +32,7 @@ export const Footer = () => {
     { name: 'Youtube', url: siteConfig.social?.youtube, icon: 'youtube' },
     { name: 'Instagram', url: siteConfig.social?.instagram, icon: 'instagram' },
     { name: 'Twitch', url: siteConfig.social?.twitch, icon: 'twitch' },
+    { name: 'Medal', url: siteConfig.social?.medal, icon: 'medal' },
   ].filter(link => link.url)
 
   const navigationLinks = siteConfig.ui?.navigation?.menuItems || ['Features', 'Jobs', 'Rules', 'Team', 'Gallery']
