@@ -64,7 +64,6 @@
     "ip": "fivem.saucinrp.com",
     "port": "30120",
     "discord": "https://discord.gg/saucinrp",
-    "store": "https://store.saucinrp.com/",
     "maxPlayers": 60,
     "location": "San Andreas",
     "language": "English",
@@ -801,6 +800,7 @@
     "tiktok": "https://tiktok.com/@saucinrp",
     "instagram": "https://instagram.com/saucinrp",
     "twitch": "https://twitch.tv/saucinrp",
+    "store": "https://store.saucinrp.com/",
     "teamspeak": null,
     "forum": null
   },
