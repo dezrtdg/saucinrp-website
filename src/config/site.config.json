@@ -501,8 +501,8 @@
     "id": "crim1",
     "name": "Placeholder",
     "category": "criminal",
-    "description": "",
-    "requirements": [],
+    "description": "Placeholder",
+    "requirements": ["Placeholder", "Placeholder"],
     "salary": 0,
     "image": ""
   },
@@ -510,8 +510,8 @@
     "id": "crim2",
     "name": "Placeholder",
     "category": "criminal",
-    "description": "",
-    "requirements": [],
+    "description": "Placeholder",
+    "requirements": ["Placeholder", "Placeholder"],
     "salary": 0,
     "image": ""
   },
@@ -519,20 +519,20 @@
     "id": "crim3",
     "name": "Placeholder",
     "category": "criminal",
-    "description": "",
-    "requirements": [],
+    "description": "Placeholder",
+    "requirements": ["Placeholder", "Placeholder"],
     "salary": 0,
-    "image": ""
+    "image": "Placeholder"
   },
   {
     "id": "crim4",
     "name": "Placeholder",
     "category": "criminal",
-    "description": "",
-    "requirements": [],
+    "description": "Placeholder",
+    "requirements": ["Placeholder", "Placeholder"],
     "salary": 0,
     "image": ""
-  },
+  }
     ]
   },
 "rules": [
