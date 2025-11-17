@@ -47,7 +47,7 @@
     "tagline": "Where Legends Are Written",
     "slogan": "Every Story. Every Choice. Every Moment.",
     "description": "Experience cinematic storytelling in Los Santos. Shape your narrative, build your empire, and become a legend in the most immersive roleplay environment.",
-    "ip": "play.nightcity-rp.com",
+    "ip": "fivem.saucinrp.com",
     "port": "30120",
     "discord": "https://discord.gg/saucinrp",
     "maxPlayers": 60,
@@ -632,7 +632,7 @@
     "refreshInterval": 30000
   },
   "social": {
-    "discord": "https://discord.gg/fourtwenty",
+    "discord": "https://discord.gg/saucinrp",
     "twitter": "https://twitter.com/nightcityrp",
     "youtube": "https://youtube.com/@nightcityrp",
     "tiktok": "https://tiktok.com/@nightcityrp",
