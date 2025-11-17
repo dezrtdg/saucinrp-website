@@ -58,9 +58,9 @@
   "server": {
     "name": "Saucin RP",
     "shortName": "SCIN",
-    "tagline": "Where Legends Are Written",
-    "slogan": "Every Story. Every Choice. Every Moment.",
-    "description": "Experience cinematic storytelling in Los Santos. Shape your narrative, build your empire, and become a legend in the most immersive roleplay environment.",
+    "tagline": "Your city. Your story.",
+    "slogan": "Where grinders, creatives, and criminals collide.",
+    "description": "Saucin RP is a custom FiveM roleplay server built for story-driven, serious and semi-serious roleplay. Dive into a fully customized city with unique scripts, whitelisted careers, gangs, events, and an active staff team that actually cares. Whether you’re law enforcement, EMS, criminal, or civilian, your choices shape the streets and your story in Saucin RP.",
     "ip": "fivem.saucinrp.com",
     "port": "30120",
     "discord": "https://discord.gg/saucinrp",
@@ -102,7 +102,7 @@
       "sectionTag": "Experience",
       "title": "Server",
       "titleAccent": "Features",
-      "highlight": "256 PLAYERS • CUSTOM FRAMEWORK • CINEMATIC ROLEPLAY"
+      "highlight": "OPTIMIZED CITY • CUSTOM SCRIPTS • STORY-DRIVEN ROLEPLAY"
     },
     "jobs": {
       "sectionTag": "Careers",
@@ -113,7 +113,7 @@
       "allJobsLabel": "All Jobs",
       "totalJobsLabel": "Total Jobs",
       "salaryRangeLabel": "Salary Range",
-      "applyButtonText": "APPLY NOW",
+      "applyButtonText": "GET STARTED",
       "salaryPrefix": "Starting",
       "salarySymbols": {
         "low": "$",
@@ -122,9 +122,9 @@
         "veryHigh": "$$$$"
       },
       "salaryThresholds": {
-        "medium": 200,
-        "high": 350,
-        "veryHigh": 450
+        "medium": 5000,
+        "high": 8000,
+        "veryHigh": 20000
       }
     },
     "rules": {
@@ -140,19 +140,19 @@
       }
     },
     "team": {
-      "sectionTag": "Leadership",
+      "sectionTag": "Staff & Leadership",
       "title": "Meet The",
       "titleAccent": "Team",
-      "subtitle": "The visionaries behind your cinematic experience. Dedicated to excellence.",
-      "joinTitle": "Join Our Team",
-      "joinSubtitle": "Ready to help shape the narrative?",
-      "joinButton": "APPLY ON DISCORD"
+      "subtitle": "The people keeping Saucin RP running smooth, building stories, and supporting the community every day.",
+      "joinTitle": "Need Help or Have Questions?",
+      "joinSubtitle": "Open a ticket or hop in Discord if you need support, want to give feedback, or have ideas for the city.",
+      "joinButton": "CONNECT ON DISCORD"
     },
     "gallery": {
       "sectionTag": "Showcase",
       "title": "Media",
       "titleAccent": "Gallery",
-      "subtitle": "Captured moments from our cinematic universe.",
+      "subtitle": "Snapshots from life inside Saucin RP.",
       "evidencePrefix": "File #",
       "featuredBadge": "Featured"
     },
@@ -173,7 +173,7 @@
       "disclaimer": "Not affiliated with Rockstar Games or Take-Two Interactive."
     },
     "navigation": {
-      "menuItems": ["Features", "Jobs", "Rules", "Team", "Gallery"],
+      "menuItems": ["Features", "Jobs", "Rules", "Team", "Gallery", "Store"],
       "connectButton": "CONNECT",
       "discordButton": "DISCORD",
       "serverCopyMessage": "Server IP copied:",
