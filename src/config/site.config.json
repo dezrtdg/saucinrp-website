@@ -448,7 +448,7 @@
     "name": "LS Customs",
     "category": "mechanic",
     "description": "Work at one of the city’s flagship shops, handling custom builds and repairs.",
-    "requirements": ["Mechanical RP", "Teamwork", "Application & interview"],
+    "requirements": ["Mechanical RP", "Application & interview"],
     "salary": 15000,
     "image": "https://files.fivemerr.com/images/fa9b9636-0426-4161-8fbf-66bacb41afb5.png"
   },
@@ -468,7 +468,7 @@
     "description": "Haul goods across the map, manage deliveries, and keep the city’s supply chain alive.",
     "requirements": ["Long-haul RP interest", "Safe driving"],
     "salary": 5000,
-    "image": "https://files.fivemerr.com/images/43ba44f3-1a5c-4660-a10e-e9f83f9d41a5.png"
+    "image": "https://files.fivemerr.com/images/19efc3b0-a286-4335-9f70-32b767b341ad.png"
   },
   {
     "id": "bahama",
