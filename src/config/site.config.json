@@ -233,10 +233,10 @@
       "highlight": true
     },
     {
-      "id": "test",
-      "title": "Heists, Jobs & Events",
-      "description": "Planned robberies, organized crime, and server events that reward coordination, timing, and solid roleplay.",
-      "icon": "Lock",
+      "id": "community-events",
+      "title": "Community Events & Storylines",
+      "description": "Server-wide events, custom jobs, and player-driven story arcs that keep the city feeling alive and always evolving.",
+      "icon": "CalendarCheck",
       "highlight": true
     }
   ],
