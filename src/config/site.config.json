@@ -381,6 +381,15 @@
         "image": "https://files.fivemerr.com/images/77324e38-bc94-4bc3-b4c2-6c6abfedc909.png"
       },
       {
+       "id": "doj",
+        "name": "Department of Justice",
+        "category": "government",
+        "description": "Handle legal cases, court proceedings, taxes, and investigations as part of the justice system.",
+        "requirements": ["Strong legal RP", "Application & interview", "Professional conduct"],
+        "salary": 3000,
+        "image": "https://files.fivemerr.com/images/f0a2a2ce-814f-4cfb-a764-9dd779b30c34.png"
+      },
+      {
         "id": "ems",
         "name": "Paramedic",
         "category": "emergency",
@@ -408,22 +417,13 @@
         "image": "https://files.fivemerr.com/images/639df938-684c-4e1e-991c-9ef7ba5c32aa.png"
       },
   {
-    "id": "bahama",
-    "name": "Bahama Mamas",
-    "category": "business",
-    "description": "Run one of the city’s nightlife hotspots with music, events, and a social atmosphere.",
-    "requirements": ["Good social RP", "Application & interview"],
-    "salary": 15000,
-    "image": "/images/jobs/bahama.png"
-  },
-  {
     "id": "bail",
     "name": "Bail Enforcement",
     "category": "civilian",
     "description": "Track down skips, recover fugitives, and work within the justice system as a bounty agent.",
     "requirements": ["Clean record", "Knowledge of laws"],
     "salary": 1000,
-    "image": "/images/jobs/bail.png"
+    "image": "https://files.fivemerr.com/images/bb6a1bf1-2414-4815-92d9-88fed4415220.png"
   },
   {
     "id": "bennys",
@@ -432,16 +432,7 @@
     "description": "Handle towing, repairs, and custom builds at one of the city’s most known mechanic shops.",
     "requirements": ["Mechanical RP experience", "Application & interview"],
     "salary": 15000,
-    "image": "/images/jobs/bennys.png"
-  },
-  {
-    "id": "doj",
-    "name": "Department of Justice",
-    "category": "government",
-    "description": "Handle legal cases, court proceedings, taxes, and investigations as part of the justice system.",
-    "requirements": ["Strong legal RP", "Application & interview", "Professional conduct"],
-    "salary": 3000,
-    "image": "https://files.fivemerr.com/images/f0a2a2ce-814f-4cfb-a764-9dd779b30c34.png"
+    "image": "https://files.fivemerr.com/images/ce31427d-4ae4-414d-9958-b818315e52b3.png"
   },
   {
     "id": "mechanic",
@@ -459,7 +450,7 @@
     "description": "Work at one of the city’s flagship shops, handling custom builds and repairs.",
     "requirements": ["Mechanical RP", "Teamwork", "Application & interview"],
     "salary": 15000,
-    "image": "/images/jobs/mechanic3.png"
+    "image": "https://files.fivemerr.com/images/fa9b9636-0426-4161-8fbf-66bacb41afb5.png"
   },
   {
     "id": "realestate",
@@ -477,7 +468,16 @@
     "description": "Haul goods across the map, manage deliveries, and keep the city’s supply chain alive.",
     "requirements": ["Long-haul RP interest", "Safe driving"],
     "salary": 5000,
-    "image": "/images/jobs/trucker.png"
+    "image": "https://files.fivemerr.com/images/43ba44f3-1a5c-4660-a10e-e9f83f9d41a5.png"
+  },
+  {
+    "id": "bahama",
+    "name": "Bahama Mamas",
+    "category": "business",
+    "description": "Run one of the city’s nightlife hotspots with music, events, and a social atmosphere.",
+    "requirements": ["Good social RP", "Application & interview"],
+    "salary": 15000,
+    "image": "https://files.fivemerr.com/images/4810e826-dc21-4947-8d88-79aa9050da9c.png"
   },
   {
     "id": "vu",
@@ -486,7 +486,7 @@
     "description": "Run the city’s iconic nightclub with music, dance, and adult-themed but rule-compliant RP.",
     "requirements": ["Mature RP only", "Application & interview", "Rule awareness (no ERP)"],
     "salary": 15000,
-    "image": "/images/jobs/vu.png"
+    "image": "https://files.fivemerr.com/images/4f2c4821-d9b4-4b90-beee-15d0f71250f4.png"
   },
   {
     "id": "whitewidow",
@@ -495,7 +495,7 @@
     "description": "Cultivate and sell cannabis products, maintaining a professional, chill shop vibe.",
     "requirements": ["Chill, character-focused RP", "Application & interview"],
     "salary": 15000,
-    "image": "/images/jobs/whitewidow.png"
+    "image": "https://files.fivemerr.com/images/5fa652b2-ff3e-49df-8c18-d4014d8c0d02.png"
   }
     ]
   },
