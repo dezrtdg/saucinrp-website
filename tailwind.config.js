@@ -24,7 +24,7 @@ export default {
         },
         'accent': {
           'gold': '#C9B037',          // Premium gold
-          'gold-light': '#ac1b1d',    // Light gold
+          'gold-light': '#D4AF37',    // Light gold
           'gold-dark': '#B8A026',     // Dark gold
           'danger': '#DC143C',        // Crimson red
           'success': '#2ECC40',       // Success green

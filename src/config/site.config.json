@@ -692,7 +692,27 @@
       "name": "MG",
       "role": "Server Owner",
       "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
-      "discord": "bigboss",
+      "discord": "mgsauceboss",
+      "description": "Founder and visionary leader of NightCity Roleplay",
+      "badge": "OWNER",
+      "status": "active"
+    },
+    {
+      "id": "reapz",
+      "name": "Reapz",
+      "role": "Server Owner",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
+      "discord": "trureapz",
+      "description": "Founder and visionary leader of NightCity Roleplay",
+      "badge": "OWNER",
+      "status": "active"
+    },
+    {
+      "id": "dez",
+      "name": "DEZ",
+      "role": "Server Owner",
+      "avatar": "https://cdn.discordapp.com/avatars/747481115513847919/65a092717f2147f13a9ecbc6d4f6c986.png?size=512",
+      "discord": "dezrtdg",
       "description": "Founder and visionary leader of NightCity Roleplay",
       "badge": "OWNER",
       "status": "active"
@@ -735,11 +755,11 @@
   },
   "social": {
     "discord": "https://discord.gg/saucinrp",
-    "twitter": "https://twitter.com/nightcityrp",
-    "youtube": "https://youtube.com/@nightcityrp",
-    "tiktok": "https://tiktok.com/@nightcityrp",
-    "instagram": "https://instagram.com/nightcityrp",
-    "twitch": "https://twitch.tv/nightcityrp",
+    "twitter": "https://twitter.com/saucinrp",
+    "youtube": "https://youtube.com/@saucinrp",
+    "tiktok": "https://tiktok.com/@saucinrp",
+    "instagram": "https://instagram.com/saucinrp",
+    "twitch": "https://twitch.tv/saucinrp",
     "teamspeak": null,
     "forum": null
   },
@@ -762,7 +782,7 @@
   "donations": {
     "enabled": true,
     "currency": "USD",
-    "paypalUrl": "https://paypal.me/nightcityrp",
+    "paypalUrl": "https://paypal.me/saucinrp",
     "packages": [
       {
         "id": "supporter",
@@ -792,7 +812,7 @@
     "showSocialLinks": true,
     "showLegalLinks": true,
     "showServerStats": true,
-    "copyright": "© 2025 NightCity Roleplay. All rights reserved.",
+    "copyright": "© 2025 Saucin RP. All rights reserved.",
     "disclaimer": "Not affiliated with Rockstar Games or Take-Two Interactive."
   }
 }
