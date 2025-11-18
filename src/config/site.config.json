@@ -894,7 +894,7 @@
     ]
   },
   "footer": {
-    "showNewsletter": true,
+    "showNewsletter": false,
     "showSocialLinks": true,
     "showLegalLinks": true,
     "showServerStats": true,
