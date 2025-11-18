@@ -500,7 +500,7 @@
     "description": "Work construction sites around the city, moving materials, operating equipment, and helping bring new builds to life.",
     "requirements": ["Willingness to grind physical labor jobs", "Basic construction or blue-collar style RP"],
     "salary": 5000,
-    "image": "https://files.fivemerr.com/images/19efc3b0-a286-4335-9f70-32b767b341ad.png"
+    "image": "https://files.fivemerr.com/images/52f709be-71b1-4e34-9833-d723c5d69849.png"
   },
   {
     "id": "delvery",
@@ -509,7 +509,7 @@
     "description": "Pick up and drop off packages across the map, hitting routes on time while dodging traffic and chaos in the city.",
     "requirements": ["Safe, consistent driving", "Route-focused or courier-style RP"],
     "salary": 5000,
-    "image": "https://files.fivemerr.com/images/19efc3b0-a286-4335-9f70-32b767b341ad.png"
+    "image": "https://files.fivemerr.com/images/b567947a-16e2-4f36-9290-93ed8c0c4793.png"
   },
   {
     "id": "electrician",
@@ -518,7 +518,7 @@
     "description": "Respond to utility calls, repair damaged power systems, and keep the city’s lights and infrastructure online.",
     "requirements": ["Willingness to learn job mechanics", "Tech/utility style RP"],
     "salary": 5000,
-    "image": "https://files.fivemerr.com/images/19efc3b0-a286-4335-9f70-32b767b341ad.png"
+    "image": "https://files.fivemerr.com/images/21dc8b80-1a38-45ba-863e-868018fd59a9.png"
   },
   {
     "id": "garbage",
@@ -527,7 +527,7 @@
     "description": "Run trash routes around the city, collecting waste and keeping neighborhoods clean while you stack steady income.",
     "requirements": ["Basic civ/grind RP", "Comfortable with repetitive route work"],
     "salary": 5000,
-    "image": "https://files.fivemerr.com/images/19efc3b0-a286-4335-9f70-32b767b341ad.png"
+    "image": "https://files.fivemerr.com/images/0bb73a86-9921-41f2-aa97-d3c23572e84a.png"
   },
   {
     "id": "g6",
@@ -536,7 +536,7 @@
     "description": "Provide private security and armored transport services, moving high-value assets and guarding sensitive locations.",
     "requirements": ["Comfortable around high-risk situations", "Security/guard-style RP"],
     "salary": 5000,
-    "image": "https://files.fivemerr.com/images/19efc3b0-a286-4335-9f70-32b767b341ad.png"
+    "image": "https://files.fivemerr.com/images/dbd5b77c-2594-4ef3-ab9f-8d3614bb8a30.png"
   },
   {
     "id": "lumberjack",
@@ -545,7 +545,7 @@
     "description": "Head out to the forests, cut down trees, and process logs into sellable lumber for the city’s construction needs.",
     "requirements": ["Willingness to grind outdoors", "Rural/blue-collar RP vibe"],
     "salary": 5000,
-    "image": "https://17movement.net/_next/image?url=https%3A%2F%2F17movement.net%2Fassets%2Fscreenshots%2Flumberjack%2Fscreenshot10.webp&w=1080&q=100"
+    "image": "https://files.fivemerr.com/images/ff855f8b-bab7-4a69-97ad-3b6afbc06093.png"
   },
   {
     "id": "miner",
@@ -554,7 +554,7 @@
     "description": "Work the mines extracting ore and rare materials, then refine them into valuable resources for the local economy.",
     "requirements": ["Patience for grind-style jobs", "Comfortable working out of the city"],
     "salary": 5000,
-    "image": "https://files.fivemerr.com/images/19efc3b0-a286-4335-9f70-32b767b341ad.png"
+    "image": "https://files.fivemerr.com/images/5b762854-e1ce-4c2e-b4e2-236abd7d80ba.png"
   },
   {
     "id": "oilrig",
