@@ -255,7 +255,7 @@
         "src": "https://files.fivemerr.com/images/6043cfd0-ae23-413b-af98-b656372d147a.jpg", 
         "alt": "City skyline at night", 
         "title": "Downtown Los Santos",
-        "category": "pd",
+        "category": "roleplay",
         "featured": false
       },
       { 
@@ -264,7 +264,7 @@
         "alt": "City skyline at night", 
         "title": "Downtown Los Santos",
         "category": "pd",
-        "featured": false
+        "featured": true
       },
       { 
         "id": 4, 
@@ -277,6 +277,22 @@
       { 
         "id": 5, 
         "src": "https://files.fivemerr.com/images/28fa4682-076b-48e5-994a-4abc59091793.png", 
+        "alt": "City skyline at night", 
+        "title": "Downtown Los Santos",
+        "category": "roleplay",
+        "featured": true
+      },
+      { 
+        "id": 6, 
+        "src": "https://files.fivemerr.com/images/2fdea84f-5309-48cb-bf60-801f542951b2.png", 
+        "alt": "City skyline at night", 
+        "title": "Downtown Los Santos",
+        "category": "pd",
+        "featured": false
+      },
+      { 
+        "id": 7, 
+        "src": "https://files.fivemerr.com/images/0741c8da-aa70-49ab-a2ee-f35f102e7cce.png", 
         "alt": "City skyline at night", 
         "title": "Downtown Los Santos",
         "category": "pd",
@@ -479,7 +495,7 @@
     "category": "criminal",
     "description": "An old-school organized crime family built on respect, structure, and quiet power. Sombra moves in the shadows through rackets, business fronts, and calculated violence.",
     "requirements": ["Strong, story-driven criminal RP (no shoot-first mentality)", "Ability to handle business, diplomacy, and conflict IC"],
-    "salary": 0,
+    "salary": 20000,
     "image": "https://files.fivemerr.com/images/0ae89a1b-5f0f-43a7-aa5c-d0a6cceb7aa9.png"
   },
   {
@@ -488,7 +504,7 @@
     "category": "criminal",
     "description": "All Out Bastard Kids — a street-heavy crew built on loyalty, chaos, and holding down their blocks by any means necessary.",
     "requirements": ["Solid street/criminal RP (no random DM)", "Ability to handle conflict IC without OOC drama"],
-    "salary": 0,
+    "salary": 20000,
     "image": "https://files.fivemerr.com/images/3d2f53c1-d734-4ea3-a5a6-ec5a17885212.png"
   },
   {
@@ -497,7 +513,7 @@
     "category": "criminal",
     "description": "Outlaw motorcycle club built on brotherhood, bikes, and high-risk criminal RP. From runs and collections to club business, every move matters.",
     "requirements": ["Must fit existing club culture (IC & OOC)", "Willingness to prospect and follow MC hierarchy"],
-    "salary": 0,
+    "salary": 20000,
     "image": "https://files.fivemerr.com/images/436251d7-818b-45d8-adbd-460c6eb529d8.png"
   }
     ]
