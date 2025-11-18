@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "Saucin RP - Premium GTA V FiveM RP Server",
+    "title": "Saucin RP - Your City. Your Story",
     "shortTitle": "Saucin RP",
-    "description": "Join the most immersive GTA V FiveM roleplay server. Custom framework, active community, realistic economy, and endless roleplay possibilities. Apply for whitelist today!",
+    "description": "Saucin RP is a custom FiveM roleplay server featuring optimized performance, custom scripts, whitelisted jobs, gangs, events, and an active staff team. Build your story as law enforcement, EMS, criminal, or civilian in a dynamic, community-driven GTA V RP experience.",
     "keywords": [
       "FiveM", 
       "GTA V", 
@@ -253,8 +253,8 @@
       { 
         "id": 2, 
         "src": "https://files.fivemerr.com/images/6043cfd0-ae23-413b-af98-b656372d147a.jpg", 
-        "alt": "City skyline at night", 
-        "title": "Downtown Los Santos",
+        "alt": "Night Cruise by the Marina", 
+        "title": "Night Cruise by the Marina",
         "category": "events",
         "featured": false
       },
