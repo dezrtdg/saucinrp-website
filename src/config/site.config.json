@@ -458,15 +458,6 @@
     "image": "https://files.fivemerr.com/images/160a1d02-cd2a-46e5-be1e-c6dab326f27f.png"
   },
   {
-    "id": "trucker",
-    "name": "Trucker",
-    "category": "civilian",
-    "description": "Haul goods across the map, manage deliveries, and keep the city’s supply chain alive.",
-    "requirements": ["Long-haul RP interest", "Safe driving"],
-    "salary": 5000,
-    "image": "https://files.fivemerr.com/images/19efc3b0-a286-4335-9f70-32b767b341ad.png"
-  },
-  {
     "id": "bahama",
     "name": "Bahama Mamas",
     "category": "business",
@@ -494,6 +485,114 @@
     "image": "https://files.fivemerr.com/images/5fa652b2-ff3e-49df-8c18-d4014d8c0d02.png"
   },
   {
+    "id": "trucker",
+    "name": "Trucker",
+    "category": "civilian",
+    "description": "Haul goods across the map, manage deliveries, and keep the city’s supply chain alive.",
+    "requirements": ["Long-haul RP interest", "Safe driving"],
+    "salary": 5000,
+    "image": "https://files.fivemerr.com/images/19efc3b0-a286-4335-9f70-32b767b341ad.png"
+  },
+  {
+    "id": "builder",
+    "name": "Builder",
+    "category": "civilian",
+    "description": "Work construction sites around the city, moving materials, operating equipment, and helping bring new builds to life.",
+    "requirements": ["Willingness to grind physical labor jobs", "Basic construction or blue-collar style RP"],
+    "salary": 5000,
+    "image": "https://files.fivemerr.com/images/19efc3b0-a286-4335-9f70-32b767b341ad.png"
+  },
+  {
+    "id": "delvery",
+    "name": "Delivery Driver",
+    "category": "civilian",
+    "description": "Pick up and drop off packages across the map, hitting routes on time while dodging traffic and chaos in the city.",
+    "requirements": ["Safe, consistent driving", "Route-focused or courier-style RP"],
+    "salary": 5000,
+    "image": "https://files.fivemerr.com/images/19efc3b0-a286-4335-9f70-32b767b341ad.png"
+  },
+  {
+    "id": "electrician",
+    "name": "Electrician",
+    "category": "civilian",
+    "description": "Respond to utility calls, repair damaged power systems, and keep the city’s lights and infrastructure online.",
+    "requirements": ["Willingness to learn job mechanics", "Tech/utility style RP"],
+    "salary": 5000,
+    "image": "https://files.fivemerr.com/images/19efc3b0-a286-4335-9f70-32b767b341ad.png"
+  },
+  {
+    "id": "garbage",
+    "name": "Garbage Collector",
+    "category": "civilian",
+    "description": "Run trash routes around the city, collecting waste and keeping neighborhoods clean while you stack steady income.",
+    "requirements": ["Basic civ/grind RP", "Comfortable with repetitive route work"],
+    "salary": 5000,
+    "image": "https://files.fivemerr.com/images/19efc3b0-a286-4335-9f70-32b767b341ad.png"
+  },
+  {
+    "id": "g6",
+    "name": "Gruppe Sechs",
+    "category": "civilian",
+    "description": "Provide private security and armored transport services, moving high-value assets and guarding sensitive locations.",
+    "requirements": ["Comfortable around high-risk situations", "Security/guard-style RP"],
+    "salary": 5000,
+    "image": "https://files.fivemerr.com/images/19efc3b0-a286-4335-9f70-32b767b341ad.png"
+  },
+  {
+    "id": "lumberjack",
+    "name": "Lumberjack",
+    "category": "civilian",
+    "description": "Head out to the forests, cut down trees, and process logs into sellable lumber for the city’s construction needs.",
+    "requirements": ["Willingness to grind outdoors", "Rural/blue-collar RP vibe"],
+    "salary": 5000,
+    "image": "https://17movement.net/_next/image?url=https%3A%2F%2F17movement.net%2Fassets%2Fscreenshots%2Flumberjack%2Fscreenshot10.webp&w=1080&q=100"
+  },
+  {
+    "id": "miner",
+    "name": "Miner",
+    "category": "civilian",
+    "description": "Work the mines extracting ore and rare materials, then refine them into valuable resources for the local economy.",
+    "requirements": ["Patience for grind-style jobs", "Comfortable working out of the city"],
+    "salary": 5000,
+    "image": "https://files.fivemerr.com/images/19efc3b0-a286-4335-9f70-32b767b341ad.png"
+  },
+  {
+    "id": "oilrig",
+    "name": "Oil Rig",
+    "category": "civilian",
+    "description": "Operate on offshore or remote oil facilities, handling extraction, transport, and maintenance of fuel resources.",
+    "requirements": ["Willingness to travel out of city limits", "Industrial or roughneck-style RP"],
+    "salary": 5000,
+    "image": "https://files.fivemerr.com/images/7e7e53c3-60b9-473f-aac8-3b22679b611d.png"
+  },
+  {
+    "id": "postman",
+    "name": "Post Man",
+    "category": "civilian",
+    "description": "Deliver letters and parcels across neighborhoods, bringing life to mail routes and small interactions along the way.",
+    "requirements": ["Safe driving or walking routes", "Friendly, light-hearted civ RP"],
+    "salary": 5000,
+    "image": "https://files.fivemerr.com/images/19efc3b0-a286-4335-9f70-32b767b341ad.png"
+  },
+  {
+    "id": "treasure",
+    "name": "Treasure Hunter",
+    "category": "civilian",
+    "description": "Search coastlines, ruins, and hidden spots for buried loot, rare finds, and hidden rewards scattered around the map.",
+    "requirements": ["Exploration-focused RP", "Patience for searching and clue hunting"],
+    "salary": 5000,
+    "image": "https://files.fivemerr.com/images/19efc3b0-a286-4335-9f70-32b767b341ad.png"
+  },
+    {
+    "id": "window",
+    "name": "Window Cleaner",
+    "category": "civilian",
+    "description": "Handle high-rise and storefront window cleaning, giving businesses a polished look while you work your routes.",
+    "requirements": ["Comfort with repetitive tasks", "Civ RP with businesses and storefronts"],
+    "salary": 5000,
+    "image": "https://files.fivemerr.com/images/90e007b4-d436-46e4-9c79-55d5eb6e399f.png"
+  },
+  {
     "id": "sombra",
     "name": "Sombra",
     "category": "criminal",
@@ -519,6 +618,42 @@
     "requirements": ["Must fit existing club culture (IC & OOC)", "Willingness to prospect and follow MC hierarchy"],
     "salary": 20000,
     "image": "https://files.fivemerr.com/images/436251d7-818b-45d8-adbd-460c6eb529d8.png"
+  },
+  {
+    "id": "families",
+    "name": "The Families",
+    "category": "criminal",
+    "description": "A legacy Los Santos street gang holding down their neighborhoods through loyalty, hustle, and long-standing rivalries in the city.",
+    "requirements": ["Willingness to build long-term turf and neighborhood stories", "Solid street/criminal RP (no random DM)"],
+    "salary": 20000,
+    "image": "https://files.fivemerr.com/images/b76178fe-a93a-4844-987c-82c617298161.png"
+  },
+  {
+    "id": "ballas",
+    "name": "Ballas",
+    "category": "criminal",
+    "description": "A ruthless, flashy street crew focused on dominance, money, and making their presence known on every block they touch.",
+    "requirements": ["Aggressive but controlled criminal RP (no random DM)", "Respect for gang hierarchy and ongoing storylines"],
+    "salary": 20000,
+    "image": "https://files.fivemerr.com/images/ed6a16ca-185c-4c0e-bcc3-182ddc6015f5.png"
+  },
+  {
+    "id": "vagos",
+    "name": "Los Santos Vagos",
+    "category": "criminal",
+    "description": "Barrio-based gang focused on territory, drug trade, and protecting their people while pushing back on rival sets and law enforcement.",
+    "requirements": ["Street/criminal RP with a barrio/gang culture vibe", "Willingness to engage in turf wars and alliance RP"],
+    "salary": 20000,
+    "image": "https://files.fivemerr.com/images/619454c4-961a-4f95-a2ae-f9b49bec9620.png"
+  },
+  {
+    "id": "grande",
+    "name": "Marabunta Grande",
+    "category": "criminal",
+    "description": "A violent, organized street gang with cartel-style influence, known for intimidation, hits, and high-risk criminal operations.",
+    "requirements": ["Serious, story-driven criminal RP (no throwaway characters)", "Comfort with high-risk, high-consequence scenarios"],
+    "salary": 20000,
+    "image": "https://files.fivemerr.com/images/8935f964-f4cf-43a9-bb10-420d32601e45.png"
   }
     ]
   },
