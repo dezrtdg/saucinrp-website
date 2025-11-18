@@ -572,7 +572,7 @@
     "description": "Deliver letters and parcels across neighborhoods, bringing life to mail routes and small interactions along the way.",
     "requirements": ["Safe driving or walking routes", "Friendly, light-hearted civ RP"],
     "salary": 5000,
-    "image": "https://files.fivemerr.com/images/19efc3b0-a286-4335-9f70-32b767b341ad.png"
+    "image": "https://files.fivemerr.com/images/2675f058-30a6-49d4-a56c-cd349bea993a.png"
   },
   {
     "id": "treasure",
@@ -581,7 +581,7 @@
     "description": "Search coastlines, ruins, and hidden spots for buried loot, rare finds, and hidden rewards scattered around the map.",
     "requirements": ["Exploration-focused RP", "Patience for searching and clue hunting"],
     "salary": 5000,
-    "image": "https://files.fivemerr.com/images/19efc3b0-a286-4335-9f70-32b767b341ad.png"
+    "image": "https://files.fivemerr.com/images/344801b9-19c1-4a0c-a08c-b3b482447e18.png"
   },
     {
     "id": "window",
