@@ -283,7 +283,6 @@
         "featured": false
       }
     ],
-    ],
     "categories": [
       { "id": "all", "name": "All" },
       { "id": "pd", "name": "PD" },
