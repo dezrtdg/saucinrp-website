@@ -174,7 +174,7 @@
       },
       "serverConnection": "Server Connection",
       "onlineStatus": "Online",
-      "disclaimer": "Not affiliated with Rockstar Games or Take-Two Interactive."
+      "disclaimer": "SAUCIN RP IS NOT APPROVED, SPONSORED, OR ENDORSED BY ROCKSTAR GAMES."
     },
     "navigation": {
       "menuItems": ["Features", "Jobs", "Rules", "Team", "Gallery", "Store"],
@@ -1037,7 +1037,7 @@
     "showSocialLinks": true,
     "showLegalLinks": true,
     "showServerStats": true,
-    "copyright": "© 2025 Saucin RP. All rights reserved.",
-    "disclaimer": "Not affiliated with Rockstar Games or Take-Two Interactive."
+    "copyright": "© 2026 Saucin RP. All rights reserved.",
+    "disclaimer": "SAUCIN RP IS NOT APPROVED, SPONSORED, OR ENDORSED BY ROCKSTAR GAMES."
   }
 }

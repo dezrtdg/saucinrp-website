@@ -206,7 +206,7 @@ export const Footer = () => {
 
             {/* Disclaimer */}
             <p className="font-body text-xs text-blanc-pearl/30 text-center md:text-right">
-              {siteConfig.footer?.disclaimer || siteConfig.ui?.footer?.disclaimer || 'Not affiliated with Rockstar Games or Take-Two Interactive.'}
+              {siteConfig.footer?.disclaimer || siteConfig.ui?.footer?.disclaimer || 'SAUCIN RP IS NOT APPROVED, SPONSORED, OR ENDORSED BY ROCKSTAR GAMES.'}
             </p>
           </div>
         </div>
