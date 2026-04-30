@@ -793,7 +793,7 @@
       "description": "Head Moderator bridging players and staff, handling reports, and keeping the vibe positive.",
       "badge": "ADMIN",
       "status": "active"
-    },
+    }
   ],
   "api": {
     "serverCode": "mejkl7",
