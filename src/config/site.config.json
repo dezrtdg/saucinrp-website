@@ -365,7 +365,7 @@
         "description": "Primary law enforcement agency for downtown Los Santos, city neighborhoods, and dense urban areas. LSPD handles most local 911 calls within city limits, focusing on patrol, emergency response, traffic enforcement, and community safety.",
         "requirements": ["Clean record", "Application & interview", "Basic academy training"],
         "salary": 8000,
-        "image": "https://files.fivemerr.com/images/bcdae355-fd10-4582-9cd5-3ee1a11d97c7.png"
+        "image": "https://r2.fivemanage.com/IYk8u0gKLX9f9QCKi3793/lspdlogo.png"
       },
       {
         "id": "bcso",
@@ -374,7 +374,7 @@
         "description": "Rural and small-town law enforcement handling calls in Blaine County and surrounding areas.",
         "requirements": ["Clean record", "Application & interview", "Basic academy training"],
         "salary": 8000,
-        "image": "https://files.fivemerr.com/images/77324e38-bc94-4bc3-b4c2-6c6abfedc909.png"
+        "image": "https://r2.fivemanage.com/IYk8u0gKLX9f9QCKi3793/BCSO.png"
       },
       {
         "id": "sasp",
@@ -383,7 +383,7 @@
         "description": "Statewide law enforcement focused on traffic, highway safety, and major crimes across San Andreas.",
         "requirements": ["Clean record", "Application & interview", "Basic academy training"],
         "salary": 8000,
-        "image": "https://files.fivemerr.com/images/bcdae355-fd10-4582-9cd5-3ee1a11d97c7.png"
+        "image": "https://r2.fivemanage.com/IYk8u0gKLX9f9QCKi3793/SASPMain.png"
       },
       {
        "id": "doj",
@@ -410,7 +410,7 @@
         "description": "Respond to structure fires, vehicle accidents, rescues, and support EMS on high-risk scenes.",
         "requirements": ["Fire & medical training (in-city or prior RP experience)", "Application & interview", "Teamwork & communication"],
         "salary": 8000,
-        "image": "https://files.fivemerr.com/images/0aedf579-8497-4949-9078-bf6302d0d2e7.png"
+        "image": "https://r2.fivemanage.com/IYk8u0gKLX9f9QCKi3793/SAFRRemake.png"
       },
       {
         "id": "sadot",
