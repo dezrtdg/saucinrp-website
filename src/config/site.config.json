@@ -371,7 +371,7 @@
         "id": "bcso",
         "name": "Blaine County Sheriff's Office",
         "category": "emergency",
-        "description": "Rural and small-town law enforcement handling calls in Blaine County and surrounding areas.",
+        "description": "Primary law enforcement agency for Sandy Shores, Grapeseed, Paleto Bay, northern highways, rural roads, and county areas. BCSO handles county and rural calls, providing patrol coverage, emergency response, and law enforcement support across Blaine County.",
         "requirements": ["Clean record", "Application & interview", "Basic academy training"],
         "salary": 8000,
         "image": "https://r2.fivemanage.com/IYk8u0gKLX9f9QCKi3793/BCSO.png"
@@ -380,7 +380,7 @@
         "id": "sasp",
         "name": "San Andreas State Police",
         "category": "emergency",
-        "description": "Statewide law enforcement focused on traffic, highway safety, and major crimes across San Andreas.",
+        "description": "Statewide law enforcement agency focused on specialty response, gang investigations, warrant operations, proactive criminal enforcement, and major assistance anywhere in San Andreas. SAST supports local agencies while handling high-priority and statewide enforcement operations.",
         "requirements": ["Clean record", "Application & interview", "Basic academy training"],
         "salary": 8000,
         "image": "https://r2.fivemanage.com/IYk8u0gKLX9f9QCKi3793/SASPMain.png"
@@ -674,209 +674,64 @@
     "category": "general",
     "severity": "medium"
   },
+ [
   {
-    "id": "community-conduct",
-    "title": "Community Conduct",
-    "description": "No racism, sexism, harassment, bullying, toxicity, trolling, or real-money trading. Respect the community both in and out of roleplay.",
+    "id": "common-sense",
+    "title": "Common Sense (IRL Logic)",
+    "description": "If it would not realistically happen in real life, do not do it in roleplay. Keep actions believable, fair, and grounded in real-world logic.",
     "category": "general",
     "severity": "high"
   },
   {
-    "id": "age-mic",
-    "title": "18+ & Mic Required",
-    "description": "All players must be 18+ with a clear, working microphone for voice-based roleplay.",
-    "category": "roleplay",
-    "severity": "high"
-  },
-  {
-    "id": "recording-required",
-    "title": "Recording Software Required",
-    "description": "Recording software (e.g., Medal, Shadowplay) is required. Clips older than 48 hours are not valid for reports or reimbursements.",
-    "category": "general",
-    "severity": "medium"
-  },
-  {
-    "id": "character-names",
-    "title": "Realistic Character Names",
-    "description": "Character names must be realistic. No celebrity names, joke names, or controversial figures.",
-    "category": "roleplay",
-    "severity": "medium"
-  },
-  {
-    "id": "exploits",
-    "title": "No Exploiting or Cheating",
-    "description": "No exploiting, cheating, hiding exploits, or using unfair graphics mods, crosshairs, or tools that give a competitive advantage.",
-    "category": "general",
-    "severity": "high"
-  },
-  {
-    "id": "external-comms",
-    "title": "No External Communication",
-    "description": "You may not be in Discord calls or similar external comms while in the city, even if muted or deafened.",
-    "category": "metagaming",
-    "severity": "high"
-  },
-  {
-    "id": "metagaming",
-    "title": "No Metagaming",
-    "description": "Do not use information your character wouldn’t reasonably know, including Discord, streams, or knowledge from other characters.",
-    "category": "metagaming",
-    "severity": "high"
-  },
-  {
-    "id": "powergaming",
-    "title": "No Powergaming",
-    "description": "Do not force outcomes, abuse mechanics, or deny others a fair chance to react. Give reasonable time and keep actions realistic.",
-    "category": "roleplay",
-    "severity": "medium"
-  },
-  {
-    "id": "failrp",
-    "title": "No FailRP",
-    "description": "Stay in character, avoid low-effort or troll RP, and follow medical, vehicle, and scene realism guidelines at all times.",
+    "id": "stay-in-character",
+    "title": "Stay In Character",
+    "description": "Stay in character during all active scenes. Do not use OOC communication in active roleplay. If your character cannot speak, use /me to roleplay actions or condition.",
     "category": "roleplay",
     "severity": "high"
   },
   {
     "id": "value-life",
-    "title": "Value Your Life",
-    "description": "Treat life-threatening situations seriously, avoid unrealistic hero behavior, and properly roleplay injuries and consequences.",
+    "title": "Value Life",
+    "description": "Value your character’s life at all times. No fearless, suicidal, or unrealistic plays. Characters should act like their life and safety matter.",
     "category": "roleplay",
     "severity": "high"
   },
   {
-    "id": "combat-logging",
-    "title": "No Combat Logging or Invalid Respawns",
-    "description": "Do not log out or respawn to avoid RP or consequences. Never return after a full death unless allowed by staff.",
+    "id": "no-random-violence",
+    "title": "No Random Violence",
+    "description": "All shootings, fights, or violent actions must have a valid roleplay reason, proper interaction, and clear build-up. Random or low-effort violence is not allowed.",
     "category": "combat",
     "severity": "high"
   },
   {
-    "id": "prohibited-rp",
-    "title": "Prohibited Roleplay",
-    "description": "Rape, extreme torture, terrorism, racist roleplay, and injury RP involving genital or rear extremities are strictly forbidden.",
+    "id": "no-cheating-meta",
+    "title": "No Cheating / Meta",
+    "description": "No cheating, exploiting, abusing mechanics, stream sniping, or using outside information your character would not know. Discord callouts, external comms, or meta information are not allowed.",
+    "category": "metagaming",
+    "severity": "high"
+  },
+  {
+    "id": "gangs-structured-only",
+    "title": "Gangs = Structured Only",
+    "description": "Gang RP must be structured and story-driven. No random wars, cheap shots, or unapproved conflict. Gang wars and major conflicts must be agreed on by leadership and follow the server’s gang system.",
+    "category": "gangs",
+    "severity": "medium"
+  },
+  {
+    "id": "cops-realistic-force",
+    "title": "Cops = Realistic Force",
+    "description": "Law enforcement must use realistic force. Officers may use lethal force when there is a clear lethal threat, such as firearms, hostages, or immediate danger to life. Otherwise, situations should use proper escalation.",
     "category": "roleplay",
     "severity": "high"
   },
   {
-    "id": "dumping-assets",
-    "title": "No Asset Dumping",
-    "description": "Giving away large amounts of items, money, or vehicles when leaving the server or retiring a character is not allowed.",
-    "category": "general",
-    "severity": "high"
-  },
-  {
-    "id": "rdm",
-    "title": "Random Deathmatch (RDM)",
-    "description": "You must have clear RP build-up and reasoning before killing someone. Random or low-effort kills are not allowed.",
-    "category": "combat",
-    "severity": "high"
-  },
-  {
-    "id": "vdm",
-    "title": "Vehicle Deathmatch (VDM)",
-    "description": "Vehicles are not weapons. Using them to intentionally run over or ram players is only allowed as an absolute last resort.",
-    "category": "combat",
-    "severity": "high"
-  },
-  {
-    "id": "green-zones",
-    "title": "Green Zones",
-    "description": "Spawn, hospitals, fire stations, and large public/business gatherings are passive RP only. No violence or criminal RP in these areas.",
-    "category": "zones",
-    "severity": "medium"
-  },
-  {
-    "id": "criminal-rp",
-    "title": "Criminal RP Quality",
-    "description": "Criminal RP must be story-driven, not constant shootouts or low-effort crime. Max 10 criminals per scene and no targeting AFK players.",
-    "category": "criminal",
-    "severity": "medium"
-  },
-  {
-    "id": "ems-protection",
-    "title": "Respect EMS & SAFR",
-    "description": "EMS and SAFR may not be harmed, looted, or taken unless explicitly allowed by specific scenarios (e.g., TEMS).",
-    "category": "criminal",
-    "severity": "medium"
-  },
-  {
-    "id": "robbery",
-    "title": "Robbery Rules",
-    "description": "Rob within proper RP build-up. Certain items (phone, ID, licenses, basic food/water, radios) cannot be taken, and you cannot rob on-duty officers.",
-    "category": "criminal",
-    "severity": "medium"
-  },
-  {
-    "id": "hostage",
-    "title": "Kidnapping & Hostage Rules",
-    "description": "Hostages have time limits, may not be reused repeatedly, and law enforcement/EMS hostage situations must meet population and RP standards.",
-    "category": "criminal",
-    "severity": "medium"
-  },
-  {
-    "id": "scamming",
-    "title": "Scamming Rules",
-    "description": "You may not scam players out of items, vehicles, or property. Scamming is limited to information such as locations or processes.",
-    "category": "criminal",
-    "severity": "medium"
-  },
-  {
-    "id": "heists",
-    "title": "Heists & Location Robberies",
-    "description": "Heists must be run for RP, not just ambushing cops. There are limits on vehicles and expectations for fair, visible engagements.",
-    "category": "criminal",
-    "severity": "medium"
-  },
-  {
-    "id": "gang-tax",
-    "title": "Gang Taxing & Civ Interactions",
-    "description": "Gangs may tax civs reasonably but may not rob, wallet-wipe, or grief them. Most conflict should be between gangs, not random civilians.",
-    "category": "gangs",
-    "severity": "medium"
-  },
-  {
-    "id": "gang-escalation",
-    "title": "Gang Escalation & War",
-    "description": "Gang conflict follows the in-game 7-day escalation system using rcore gangs and Wasabi war phone. Ambush RP and cheap-shot PvP are forbidden.",
-    "category": "gangs",
-    "severity": "medium"
-  },
-  {
-    "id": "business-rules",
-    "title": "Business Ownership",
-    "description": "Business owners must remain active, follow economic and RP standards, and may lose ownership for inactivity or abuse.",
-    "category": "business",
-    "severity": "medium"
-  },
-  {
-    "id": "dhs-staff",
-    "title": "DHS & Staff",
-    "description": "DHS uniforms represent staff. Do not steal, damage, or impersonate DHS vehicles or gear. Treat interactions as IC unless told otherwise.",
-    "category": "staff",
-    "severity": "high"
-  },
-  {
-    "id": "reports",
-    "title": "Reporting Players",
-    "description": "Use /report or Discord tickets with at least 2 minutes of footage. False or troll reports, or lying to DHS, are punishable.",
-    "category": "general",
-    "severity": "medium"
-  },
-  {
-    "id": "airsoft",
-    "title": "Airsoft & Replica Weapons",
-    "description": "Brandishing or firing airsoft/replica weapons at officers is strictly prohibited and carries severe penalties, including long-term bans.",
-    "category": "combat",
-    "severity": "high"
-  },
-  {
-    "id": "stream-sniping",
-    "title": "No Stream Sniping",
-    "description": "Using streams or external content to track or counter players is treated as metagaming and will be punished.",
+    "id": "dont-be-toxic",
+    "title": "Don’t Be Toxic",
+    "description": "Do not harass, bully, troll, discriminate, act racist, or bring weird or toxic behavior into the community. Respect players, staff, and the roleplay environment.",
     "category": "general",
     "severity": "high"
   }
+]
 ],
   "team": [
     {
@@ -910,29 +765,9 @@
       "status": "active"
     },
     {
-      "id": "tyber",
-      "name": "Tyber",
-      "role": "Head Administrator",
-      "avatar": "https://cdn.discordapp.com/avatars/297825134620966922/2e1f8386294a63c381afb3024a878f79.png?size=512",
-      "discord": "tyberzhan.33",
-      "description": "Leads the admin team, handling escalated situations, policy enforcement, and high-level support.",
-      "badge": "ADMIN",
-      "status": "active"
-    },
-    {
-      "id": "jay",
-      "name": "Jay",
-      "role": "Administrator",
-      "avatar": "https://cdn.discordapp.com/avatars/265908713179709441/875e9dda26799d9da9783a48bbeaf005.png?size=512",
-      "discord": "swisherjay",
-      "description": "Administrator supporting day-to-day operations, reports, and keeping RP fair for everyone.",
-      "badge": "ADMIN",
-      "status": "active"
-    },
-    {
       "id": "sam",
       "name": "Samm",
-      "role": "Administrator",
+      "role": "Community Administrator",
       "avatar": "https://cdn.discordapp.com/avatars/785957253081464905/d3b604cebe51a7b4679e03b5690a454c.png?size=512",
       "discord": "damnsam1923",
       "description": "Administrator focused on player support, tickets, and keeping scenes smooth and enjoyable.",
@@ -940,45 +775,25 @@
       "status": "active"
     },
     {
-      "id": "avenged",
-      "name": "avenged",
-      "role": "Administrator",
-      "avatar": "https://cdn.discordapp.com/avatars/696223317761327126/f2b18a10bf5f8627e123aac47518f7d9.png?size=512",
-      "discord": "avengedgurl",
-      "description": "Administrator assisting with moderation, conflict resolution, and server standards.",
+      "id": "jess",
+      "name": "Jess",
+      "role": "Community Administrator",
+      "avatar": "https://cdn.discordapp.com/avatars/434881728717258773/cf970a26b610c37daf04580ca10051fa.png?size=512",
+      "discord": "yeahitsjesshere",
+      "description": "Administrator focused on player support, tickets, and keeping scenes smooth and enjoyable.",
       "badge": "ADMIN",
       "status": "active"
     },
     {
-      "id": "jess",
-      "name": "Jess",
-      "role": "Head Moderator",
+      "id": "bluntz",
+      "name": "BLUNTZ",
+      "role": "Community Moderator",
       "avatar": "https://cdn.discordapp.com/avatars/434881728717258773/cf970a26b610c37daf04580ca10051fa.png?size=512",
-      "discord": "yeahitsjesshere",
+      "discord": "",
       "description": "Head Moderator bridging players and staff, handling reports, and keeping the vibe positive.",
-      "badge": "MOD",
+      "badge": "ADMIN",
       "status": "active"
     },
-    {
-      "id": "Rich",
-      "name": "Rich",
-      "role": "Moderator",
-      "avatar": "https://cdn.discordapp.com/avatars/452956366290550794/69f3d9a056a36775119757258ae8a8f2.png?size=512",
-      "discord": "rich_killa123",
-      "description": "Moderator helping with tickets, in-city issues, and keeping interactions respectful.",
-      "badge": "MOD",
-      "status": "active"
-    },
-    {
-      "id": "Mando",
-      "name": "Mando",
-      "role": "Moderator",
-      "avatar": "https://cdn.discordapp.com/avatars/312680308665483264/78a4047a03d59e8e3814ddf78a64ccbb.png?size=512",
-      "discord": "mandoraider",
-      "description": "Moderator supporting community moderation, scene quality, and server guidelines.",
-      "badge": "MOD",
-      "status": "active"
-    }
   ],
   "api": {
     "serverCode": "mejkl7",
