@@ -359,10 +359,10 @@
     ],
     "list": [
       {
-        "id": "sasp",
-        "name": "San Andreas State Police",
+        "id": "lspd",
+        "name": "Los Santos Police Department",
         "category": "emergency",
-        "description": "Statewide law enforcement focused on traffic, highway safety, and major crimes across San Andreas.",
+        "description": "Primary law enforcement agency for downtown Los Santos, city neighborhoods, and dense urban areas. LSPD handles most local 911 calls within city limits, focusing on patrol, emergency response, traffic enforcement, and community safety.",
         "requirements": ["Clean record", "Application & interview", "Basic academy training"],
         "salary": 8000,
         "image": "https://files.fivemerr.com/images/bcdae355-fd10-4582-9cd5-3ee1a11d97c7.png"
@@ -375,6 +375,15 @@
         "requirements": ["Clean record", "Application & interview", "Basic academy training"],
         "salary": 8000,
         "image": "https://files.fivemerr.com/images/77324e38-bc94-4bc3-b4c2-6c6abfedc909.png"
+      },
+      {
+        "id": "sasp",
+        "name": "San Andreas State Police",
+        "category": "emergency",
+        "description": "Statewide law enforcement focused on traffic, highway safety, and major crimes across San Andreas.",
+        "requirements": ["Clean record", "Application & interview", "Basic academy training"],
+        "salary": 8000,
+        "image": "https://files.fivemerr.com/images/bcdae355-fd10-4582-9cd5-3ee1a11d97c7.png"
       },
       {
        "id": "doj",
