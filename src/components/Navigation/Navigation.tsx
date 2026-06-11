@@ -18,7 +18,7 @@ export const Navigation = () => {
     []
   )
 
-  const storeUrl = siteConfig.social?.store || 'https://store.saucinrp.com/'
+  const storeUrl = siteConfig.social?.store || 'https://saucin-rp-webstore.tebex.io/'
 
   useEffect(() => {
     const handleScroll = () => {
